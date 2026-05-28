@@ -266,17 +266,11 @@ header nav ul {
     color: var(--g300)
 }
 
-#premium h3 {
-    color: var(--color-sec)
-}
-
 #premium:hover {
     background-color: #c5ebf1;
 }
 
-#premium h3:hover {
-    color:
-}
+
 
 
 
