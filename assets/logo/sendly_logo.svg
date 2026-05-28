@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1774" height="887" viewBox="0 0 1774 887" role="img" aria-labelledby="title desc">
+  <title id="title">Logo Sendly</title>
+  <desc id="desc">Logo Sendly avec icône de facture et texte bicolore aqua et violet.</desc>
+
+  <defs>
+    <linearGradient id="aquaGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#71c7d6"/>
+      <stop offset="100%" stop-color="#57b9ca"/>
+    </linearGradient>
+    <linearGradient id="violetGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#7b63d4"/>
+      <stop offset="100%" stop-color="#6047b8"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Icon: invoice document -->
+  <g transform="translate(255 260)">
+    <path d="M40 0 H205 L285 82 V300 Q285 340 245 340 H40 Q0 340 0 300 V40 Q0 0 40 0 Z" fill="none" stroke="url(#aquaGrad)" stroke-width="22" stroke-linejoin="round"/>
+    <path d="M205 0 V78 Q205 98 225 98 H285" fill="none" stroke="url(#aquaGrad)" stroke-width="22" stroke-linecap="round" stroke-linejoin="round"/>
+
+    <!-- Euro symbol -->
+    <text x="42" y="118" font-family="Arial, Helvetica, sans-serif" font-size="78" font-weight="700" fill="#6f55c8">€</text>
+
+    <!-- Invoice lines -->
+    <line x1="60" y1="165" x2="205" y2="165" stroke="#71c7d6" stroke-width="18" stroke-linecap="round"/>
+    <line x1="60" y1="222" x2="145" y2="222" stroke="#2b254a" stroke-width="16" stroke-linecap="round"/>
+
+    <!-- Small table -->
+    <rect x="58" y="265" width="105" height="70" rx="4" fill="none" stroke="#71c7d6" stroke-width="10"/>
+    <line x1="93" y1="265" x2="93" y2="335" stroke="#71c7d6" stroke-width="8"/>
+    <line x1="128" y1="265" x2="128" y2="335" stroke="#71c7d6" stroke-width="8"/>
+    <line x1="58" y1="300" x2="163" y2="300" stroke="#71c7d6" stroke-width="8"/>
+
+    <!-- Check badge -->
+    <circle cx="250" cy="300" r="72" fill="url(#violetGrad)"/>
+    <path d="M215 298 L242 326 L293 268" fill="none" stroke="#ffffff" stroke-width="18" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+
+  <!-- Wordmark -->
+  <g font-family="Arial, Helvetica, sans-serif" font-weight="800">
+    <text x="600" y="515" font-size="250" fill="#71c7d6" letter-spacing="-7">Send</text>
+    <text x="1225" y="515" font-size="250" fill="#6f55c8" letter-spacing="-7">ly</text>
+  </g>
+
+  <!-- Tagline -->
+  <text x="600" y="620" font-family="Arial, Helvetica, sans-serif" font-size="52" font-weight="400" fill="#2b254a">Outils de facturation pour artisans</text>
+</svg>

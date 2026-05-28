@@ -1,0 +1,53 @@
+SENDLY — CHARTE GRAPHIQUE v1.0
+Outils de facturation pour artisan
+========================================
+
+
+COULEURS DE MARQUE
+----------------------------------------
+Cyan Sendly (principale / action)   #5FC9DA
+Violet Sendly (secondaire / marque) #605BA8
+
+Variantes foncées (hover, contrastes) :
+Cyan foncé                          #3FB3C6
+Violet foncé                        #4D4990
+
+
+ÉCHELLE DE GRIS
+----------------------------------------
+Gris 50  (fond)                     #F6F7F9
+Gris 100 (bordures, séparateurs)    #E6E7EC
+Gris 300 (désactivé, lignes)        #B4B7C2
+Gris 500 (texte secondaire)         #6B6F7E
+Gris 700 (texte fort)               #3A3D4A
+Gris 900 (titres, texte principal)  #1C1E26
+Blanc                               #FFFFFF
+
+
+COULEURS DE STATUT (suggestion, à valider)
+----------------------------------------
+Succès / Payé                       #16A34A
+Erreur                              #DC2626
+Alerte / En attente                 #D97706
+Info                                #2563EB
+
+
+TYPOGRAPHIE
+----------------------------------------
+Titres            Futura Medium BT
+Sous-titres       Lato
+Paragraphes       Lato
+
+Graisses :
+Futura            Medium (500)
+Lato              Regular (400) / Bold (700)
+
+
+RÈGLES D'USAGE
+----------------------------------------
+- Cyan et violet sont les SEULES couleurs vives. Tout le reste est gris.
+- Cyan = action principale (boutons, CTA, KPI).
+- Violet = marque, actions secondaires.
+- Logo bicolore : "Send" en cyan, "ly" en violet.
+- Sur fond coloré ou foncé : logo en blanc d'un seul bloc.
+- Texte principal en Gris 900, texte secondaire en Gris 500.
