@@ -1,0 +1,21 @@
+:root {
+    /* --========== Basics ==========-- */
+    --color-prim: #605BA8;
+    --color-prim-dark: #4D4990;
+    --color-sec: #5FC9DA;
+    --cyan-sec-dark: #3FB3C6;
+
+    /* --========== Shades of grey ==========--*/
+    --g900: #1C1E26;
+    --g700: #3A3D4A;
+    --g500: #6B6F7E;
+    --g300: #B4B7C2;
+    --g100: #E6E7EC;
+    --g50: #F6F7F9;
+    --white: #FFFFFF;
+
+    /* --========== Fonts ==========-- */
+    --font-title: 'Futura', 'Century Gothic', 'Trebuchet MS', sans-serif;
+    --font-body: 'Lato', 'Helvetica Neue', Arial, sans-serif;
+
+}
