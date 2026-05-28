@@ -20,8 +20,24 @@
 }
 
 /* --========== Body ==========-- */
+
 /* --========== Header ==========-- */
+
+header {
+
+    display: flex;
+    border: solid #5FC9DA;
+    border-radius: 2%;
+    width: 100%;
+}
+
+header nav ul {
+
+    display: flex;
+}
+
 /* --========== 01 Hero ==========-- */
+
 /* --========== 02 Without / With Sendly ==========-- */
 /* --========== 03 Demo ==========-- */
 /* --========== 04 Who it's for ==========-- */
