@@ -1,23 +1,24 @@
 :root {
-    /* --========== Basics ==========-- */
-    --color-prim: #605BA8;
-    --color-prim-dark: #4D4990;
-    --color-sec: #5FC9DA;
-    --cyan-sec-dark: #3FB3C6;
+  /* --========== Basics ==========-- */
+  --color-prim: #605ba8;
+  --color-prim-dark: #4d4990;
+  --color-sec: #5fc9da;
+  --cyan-sec-dark: #3fb3c6;
 
-    /* --========== Shades of grey ==========--*/
-    --g900: #1C1E26;
-    --g700: #3A3D4A;
-    --g500: #6B6F7E;
-    --g300: #B4B7C2;
-    --g100: #E6E7EC;
-    --g50: #F6F7F9;
-    --white: #FFFFFF;
+  /* --========== Shades of grey ==========--*/
+  --g900: #1c1e26;
+  --g700: #3a3d4a;
+  --g500: #6b6f7e;
+  --g300: #b4b7c2;
+  --g100: #e6e7ec;
+  --g50: #f6f7f9;
+  --white: #ffffff;
 
-    /* --========== Fonts ==========-- */
-    --font-title: 'Futura', 'Century Gothic', 'Trebuchet MS', sans-serif;
-    --font-body: 'Lato', 'Helvetica Neue', Arial, sans-serif;
+  /* --========== Fonts ==========-- */
+  --font-title: "Futura", "Century Gothic", "Trebuchet MS", sans-serif;
+  --font-body: "Lato", "Helvetica Neue", Arial, sans-serif;
 }
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
 
 /* --========== Body ==========-- */
 /* --========== Header ==========-- */
@@ -25,9 +26,8 @@
 /* --========== 02 Without / With Sendly ==========-- */
 /* --========== 03 Demo ==========-- */
 /* --========== 04 Who it's for ==========-- */
+
 /* --========== 05 About ==========-- */
 /* --========== 06 Pricing ==========-- */
 /* --========== 08 Final ==========-- */
 /* --========== Footer==========-- */
-
-
