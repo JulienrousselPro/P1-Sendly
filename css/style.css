@@ -133,11 +133,7 @@ header img {
     padding: 10px 35px 20px 35px;
 }
 
-<<<<<<< HEAD
-<<<<<<< HEAD header.logo {
-=======
 header.logo {
->>>>>>> 06e26adf2fec4a0ae111b70ec192211323cdd05a
     display: block;
 }
 
@@ -156,15 +152,11 @@ header .logo img {
     padding: 10px;
 }
 
-<<<<<<< HEAD
-=======h1 {
+h1 {
     text-align: left;
     font-size: 3.5rem;
     margin: 3rem 0;
     color: var(--color-sec);
-    >>>>>>>origin/main
-=======
->>>>>>> 06e26adf2fec4a0ae111b70ec192211323cdd05a
 }
 
 /* --========== 01 Hero ==========-- */
@@ -305,7 +297,7 @@ main section div.another_logo img {
     text-align: center;
     flex-direction: column;
     align-items: center;
-    webkit-box-shadow: 2px -4px 10px -1px var(--color-prim);
+    -webkit-box-shadow: 2px -4px 10px -1px var(--color-prim);
     box-shadow: 2px -4px 10px -1px var(--color-prim-dark);
 }
 
@@ -595,15 +587,8 @@ p.story-signature {
 }
 
 .btn:hover {
-<<<<<<< HEAD
-    <<<<<<< HEAD scale: 1.2;
-    background-color: var(--color-sec-dark);
-    =======scale: 1.2;
-    >>>>>>>origin/main
-=======
     scale: 1.2;
     background-color: var(--color-sec-dark);
->>>>>>> 06e26adf2fec4a0ae111b70ec192211323cdd05a
 }
 
 #premium {
@@ -632,11 +617,7 @@ p.story-signature {
     background-color: #c5ebf1;
 }
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
 
->>>>>>> 06e26adf2fec4a0ae111b70ec192211323cdd05a
 /* --========== 07 FAQ ==========-- */
 
 
@@ -655,31 +636,27 @@ p.story-signature {
     margin: 0.3rem 5rem;
     box-shadow: 6px 6px 15px 2px rgba(0, 0, 0, 0.17);
     width: 50%;
-<<<<<<< HEAD
-    =======
-=======
+
 }
->>>>>>> 06e26adf2fec4a0ae111b70ec192211323cdd05a
 
-    /* --========== 08 Final ==========-- */
-    .faq {
-        display: flex;
-        align-items: center;
-        flex-direction: column;
-        >>>>>>>origin/main
-    }
+/* --========== 08 Final ==========-- */
+.faq {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 
-<<<<<<< HEAD
-    .faq summary {
-        list-style: none;
-        cursor: pointer;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        font-weight: 600;
-        padding: 0.5rem;
-    }
-=======
+}
+
+.faq summary {
+    list-style: none;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 600;
+    padding: 0.5rem;
+}
+
 .faq-icon {
     display: flex;
     align-items: center;
@@ -692,105 +669,100 @@ p.story-signature {
     font-size: 2rem;
     transition: transform 0.5s ease;
 }
->>>>>>> 06e26adf2fec4a0ae111b70ec192211323cdd05a
 
-    <<<<<<< HEAD .faq-icon {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        width: 2rem;
-        height: 2rem;
-        border-radius: 50%;
-        border: 2px solid var(--color-prim);
-        color: var(--color-prim);
-        font-size: 2rem;
-        transition: transform 0.5s ease;
-    }
+.faq-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    border: 2px solid var(--color-prim);
+    color: var(--color-prim);
+    font-size: 2rem;
+    transition: transform 0.5s ease;
+}
 
-    .faq-icon img {
-        width: 0.8rem;
-        height: auto;
-    }
+.faq-icon img {
+    width: 0.8rem;
+    height: auto;
+}
 
-    .faq details[open] .faq-icon {
-        transform: rotate(45deg);
-    }
-
-
-    /* --========== 08 Final ==========-- */
+.faq details[open] .faq-icon {
+    transform: rotate(45deg);
+}
 
 
-    .final {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        height: auto;
-    }
-
-    .final p {
-        font-size: 32px;
-    }
-
-    .final a {
-        display: flex;
-        align-self: center;
-        padding: 1.3rem 4rem;
-        background-color: var(--color-prim);
-        border-radius: 1rem;
-        margin: 3rem 0;
-        text-align: center;
-        color: var(--g100);
-        transition: all 0.5s ease;
-        box-shadow: 5px 4px 11px 1px rgba(0, 0, 0, 0.42);
-        font-size: 25px;
-        font-weight: 700;
-    }
-
-    .final a:hover {
-        scale: 1.1;
-        background-color: var(--color-prim-dark);
-    }
+/* --========== 08 Final ==========-- */
 
 
-    /* --========== Footer==========-- */
+.final {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+}
 
-    footer {
-        display: flex;
-        flex-direction: column;
-        background-color: var(--color-prim);
-        width: 100vw;
-        color: var(--g100);
+.final p {
+    font-size: 32px;
+}
 
-    }
+.final a {
+    display: flex;
+    align-self: center;
+    padding: 1.3rem 4rem;
+    background-color: var(--color-prim);
+    border-radius: 1rem;
+    margin: 3rem 0;
+    text-align: center;
+    color: var(--g100);
+    transition: all 0.5s ease;
+    box-shadow: 5px 4px 11px 1px rgba(0, 0, 0, 0.42);
+    font-size: 25px;
+    font-weight: 700;
+}
 
-    .footer-nav {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        gap: 8%;
-        padding: 2rem 0;
-    }
+.final a:hover {
+    scale: 1.1;
+    background-color: var(--color-prim-dark);
+}
 
-<<<<<<< HEAD
-    footer div {
-        align-self: center;
-    }
 
-    =======.faq details {
-        border-bottom: 1px solid #e5e7eb;
-        padding: 1rem;
-        background-color: var(--g100);
-        border: 1px solid var(--color-prim);
-        border-radius: 1rem;
-        margin: 0.3rem 5rem;
-        width: 50%;
-    }
+/* --========== Footer==========-- */
 
-    /* --========== Footer==========-- */
-    >>>>>>>origin/main
-=======
+footer {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--color-prim);
+    width: 100vw;
+    color: var(--g100);
+
+}
+
+.footer-nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8%;
+    padding: 2rem 0;
+}
+
 footer div {
     align-self: center;
 }
->>>>>>> 06e26adf2fec4a0ae111b70ec192211323cdd05a
+
+.faq details {
+    border-bottom: 1px solid #e5e7eb;
+    padding: 1rem;
+    background-color: var(--g100);
+    border: 1px solid var(--color-prim);
+    border-radius: 1rem;
+    margin: 0.3rem 5rem;
+    width: 50%;
+}
+
+/* --========== Footer==========-- */
+footer div {
+    align-self: center;
+}
