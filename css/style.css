@@ -77,16 +77,22 @@ body {
 }
 
 h2 {
+
     text-align: center;
     font-size: 3rem;
     margin: 3rem 0;
     color: var(--color-sec);
-    margin-top: 100px;
-    margin-bottom: 40px;
-    font-size: 55px;
-    font-weight: 900;
-    text-shadow: rgba(141, 137, 137, 0.61) 1px 1px 1px;
-    text-transform: uppercase;
+
+}
+
+h1 {
+
+    text-align: left;
+    font-size: 3.5rem;
+    font-weight: bold;
+    margin: 3rem 0;
+    color: var(--color-sec);
+    
 }
 
 /* --========== Header ==========-- */
@@ -110,38 +116,37 @@ nav {
     justify-content: space-between;
 }
 
-nav ul {
-    display: flex;
-    flex-direction: row;
-    padding: 25px 40px 25px 0;
-    gap: 20px;
+    header nav {
+
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+        gap: 1rem;
+
+    }
+
+    header ul {
+
+        display: flex;
+        align-items: center;
+        gap: 0.75rem;
+
 }
 
-nav li {
-    font-size: 18px;
-    color: white;
-    font-weight: 900;
-}
+    header.logo {
 
-nav li:hover {
-    font-size: 18px;
-    color: #aaf4ff;
-}
+        display: block;
 
-header img {
-    width: 260px;
-    padding: 10px 35px 20px 35px;
-}
+    }
 
-header.logo {
-    display: block;
-}
+        header.logo img {
 
-header .logo img {
-    height: 48px;
-    width: auto;
-    display: block;
-}
+            height: 48px;
+            width: auto;
+            display: block;
+
+        }
 
 .try-btn {
 
@@ -152,22 +157,126 @@ header .logo img {
     padding: 10px;
 }
 
-h1 {
-    text-align: left;
-    font-size: 3.5rem;
-    margin: 3rem 0;
-    color: var(--color-sec);
-}
+
+    .try-btn:hover {
+
+    background-color: #5FC9DA;
+    color: #605BA8;
+    border: solid #605BA8;
+
+    }
 
 /* --========== 01 Hero ==========-- */
 
 .hero {
-    background-image: url(../assets/img/desktop_hero.png);
-    background-size: contain;
+
+    
+    background:
+    url(../assets/img/desktop_hero.png);
+    background-size: 50%;
+    background-position: right top;
+    padding-left: 50px;
     background-repeat: no-repeat;
-    background-position: right;
-    margin-top: 10px;
+    min-height: calc(100vh - 72px);
+        
 }
+
+    .hero p {
+
+        font-size: 1.2rem;
+        font-weight: bold;
+
+    }
+
+    .description {
+
+        padding-left: 120px;
+        padding-bottom: 50px;
+
+    }
+
+.tick {
+
+    fill-opacity: var(--color-prim);
+}
+
+    .hero-li {
+
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        padding-left: 120px;
+
+    }
+
+        .hero-li img {
+            width: 30px;
+            height: 30px;
+            object-fit: cover;
+        }
+
+    .hero-btn {
+
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+        padding-top: 150px;
+        padding-bottom: 50px;
+        font-size: 1.2rem;
+
+    }
+
+    #tarifs-btn {
+        
+        border: 2px solid var(--color-prim);
+        border-radius: 7.5px;
+        padding: 2px 15px 2px 15px;
+        color: var(--color-prim);
+        font-weight: 700;
+        transition: transform 0.25s ease, box-shadow 0.25s ease;
+    }
+
+        #tarifs-btn:hover {
+
+            transform: scale(1.08);
+            box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+
+        }
+
+    #try-btn {
+
+        border: 2px solid var(--color-sec);
+        background: #4D4990;
+        background: -moz-linear-gradient(top, #4D4990 0%, #605BA8 50%, #3FB3C6 100%);
+        background: -webkit-linear-gradient(top, #4D4990 0%, #605BA8 50%, #3FB3C6 100%);
+        background: linear-gradient(to bottom, #4D4990 0%, #605BA8 50%, #3FB3C6 100%);
+        border-radius: 7.5px;
+        padding: 2px 15px 2px 15px;
+        color: var(--color-sec);
+        font-weight: 700;
+        transition: transform 0.3s ease;
+        
+    }
+
+        #try-btn:hover {
+
+            border: 2px solid var(--color-prim);
+            background: #3FB3C6;
+            background: -moz-linear-gradient(top, #5FC9DA  0%, #3FB3C6 50%, #605BA8 100%);
+            background: -webkit-linear-gradient(top, #5FC9DA 0%, #3FB3C6 50%, #605BA8 100%);
+            background: linear-gradient(to bottom, #5FC9DA 0%, #3FB3C6 50%, #605BA8 100%);
+            border-radius: 7.5px;
+            padding: 2px 15px 2px 15px;
+            color: var(--color-prim);
+            font-weight: 700;
+            transform: scale(1.1);
+
+        }
+
+
+
+
+
 
 /* --========== 02 Compare ==========-- */
 
