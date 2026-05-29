@@ -3,7 +3,7 @@
   --color-prim: #605ba8;
   --color-prim-dark: #4d4990;
   --color-sec: #5fc9da;
-  --cyan-sec-dark: #3fb3c6;
+  --color-sec-dark: #3fb3c6;
 
   /* --========== Shades of grey ==========--*/
   --g900: #1c1e26;
@@ -20,14 +20,200 @@
 }
 @import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
 
-/* --========== Body ==========-- */
-/* --========== Header ==========-- */
-/* --========== 01 Hero ==========-- */
-/* --========== 02 Without / With Sendly ==========-- */
-/* --========== 03 Demo ==========-- */
-/* --========== 04 Who it's for ==========-- */
+@font-face {
+  font-family: "Lato";
+  src: url("../fonts/Lato/Lato-Regular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
 
+@font-face {
+  font-family: "Lato";
+  src: url("../fonts/Lato/Lato-Italic.woff2") format("woff2");
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Lato";
+  src: url("../fonts/Lato/Lato-Bold.woff2") format("woff2");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Lato";
+  src: url("../fonts/Lato/Lato-BoldItalic.woff2") format("woff2");
+  font-weight: 700;
+  font-style: italic;
+  font-display: swap;
+}
+
+/* --========== Body ==========-- */
+body {
+  font-family: var(--font-body);
+  background-image: url("#");
+  padding: 100px 35px 0 35px;
+  padd
+}
+
+h2 {
+  text-align: center;
+  font-size: 3rem;
+  margin: 3rem 0;
+  color: var(--color-sec);
+}
+
+/* --========== Header ==========-- */
+
+header {
+  width: 100wh;
+  height: 72px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+  background-color: #3fb3c6;
+  border-bottom: solid 0.5px #c6c9d5;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+nav ul {
+  display: flex;
+  flex-direction: row;
+  padding: 25px 40px 25px 0;
+  gap: 20px;
+}
+nav li {
+  font-size: 18px;
+  color: white;
+  font-weight: 900;
+  }
+ nav li:hover {
+  font-size: 18px;
+  color: #aaf4ff;
+  }
+
+
+header img {
+  width: 260px;
+  padding: 10px 35px 20px 35px;
+}
+
+/* --========== 01 Hero ==========-- */
+
+/* --========== 02 Compare ==========-- */
+
+/* --========== 03 Demo ==========-- */
+
+/* --========== 04 Who it's for ==========-- */
+.who {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url("../assets/img/testt.png");
+}
+
+.who h2 {
+  margin-top: 100px;
+  margin-bottom:40px;
+  font-size: 65x;
+  font-weight: 900;
+  text-shadow: rgba(141, 137, 137, 0.61) 1px 1px 1px;
+}
+
+.who .sous-title p {
+  font-size: 20px;
+  text-align: center;
+  font-family: "lato";
+  font-weight: 700;
+  margin-bottom: 60px;
+  color: #3fb3c6;
+}
+
+.who ul {
+  width: 1000px;
+  height: 450px;
+  display: flex;
+  justify-content: center;
+  gap: 95px;
+  margin: 0px 50px 80px 50px;
+}
+
+.who li {
+  width: 260px;
+  border-radius: 16px;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+  box-shadow: rgba(9, 30, 66, 0.08) 2px 2px 12px 8px;
+  transition: transform 0.3s;
+  border-top: solid 4px #605ba8;
+}
+.who li:hover {
+  transform: scale(1.05);
+}
+.who img {
+  width: 300px;
+  align-self: center;
+  margin-bottom: 8px;
+}
+
+.who h3 {
+  color: #605ba8;
+  font-family: "lato";
+  font-weight: 700;
+  font-size: 28px;
+  text-align: center;
+  text-shadow: rgba(141, 137, 137, 0.61) 1px 1px 1px;
+  border-bottom: solid 0.5px #605ba8;
+  backdrop-filter: blur(10px);
+  margin-top: 15px;
+  margin-bottom: 7px;
+  padding: 0 0 24px 0;
+}
+
+.who a {
+  color: #004e5a;
+  font-family: "lato";
+  font-weight: 700;
+  font-size: 18px;
+  background-color: #5fc9da;
+  border-radius: 15px;
+  padding: 13px 30px 10px 30px;
+  box-shadow: rgba(55, 53, 56, 0.24) 1px 2px 7px 2px;
+}
+.who a:hover {
+  transform: scale(1.03);
+  background-color: #605ba8;
+  color: #bebaf6;
+}
+
+.who p {
+  font-family: "lato";
+  font-weight: 400;
+  font-size: 16px;
+  margin: 5px 20px;
+  text-align: center;
+}
 /* --========== 05 About ==========-- */
+div.about {
+  display: flex;
+  flex-direction: row;
+}
+
 /* --========== 06 Pricing ==========-- */
+
 /* --========== 08 Final ==========-- */
+
 /* --========== Footer==========-- */
