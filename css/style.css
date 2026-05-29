@@ -45,10 +45,26 @@
 }
 
 @font-face {
-  font-family: "Lato";
-  src: url("../fonts/Lato/Lato-BoldItalic.woff2") format("woff2");
+  font-family: "Futura PT";
+  src: url("../fonts/futura-pt/FuturaCyrillicBook.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Futura PT";
+  src: url("../fonts/futura-pt/FuturaCyrillicDemi.ttf") format("truetype");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Futura PT";
+  src: url("../fonts/futura-pt/FuturaCyrillicBold.ttf") format("truetype");
   font-weight: 700;
-  font-style: italic;
+  font-style: normal;
   font-display: swap;
 }
 
@@ -56,8 +72,7 @@
 body {
   font-family: var(--font-body);
   background-image: url("#");
-  padding: 100px 35px 0 35px;
-  padd
+  padding-top: 72px;
 }
 
 h2 {
@@ -65,6 +80,12 @@ h2 {
   font-size: 3rem;
   margin: 3rem 0;
   color: var(--color-sec);
+  margin-top: 100px;
+  margin-bottom: 40px;
+  font-size: 55px;
+  font-weight: 900;
+  text-shadow: rgba(141, 137, 137, 0.61) 1px 1px 1px;
+  text-transform: uppercase;
 }
 
 /* --========== Header ==========-- */
@@ -79,6 +100,7 @@ header {
   z-index: 1000;
   background-color: #3fb3c6;
   border-bottom: solid 0.5px #c6c9d5;
+  box-shadow: rgba(9, 30, 66, 0.08) 2px 2px 12px 8px;
 }
 
 nav {
@@ -96,12 +118,11 @@ nav li {
   font-size: 18px;
   color: white;
   font-weight: 900;
-  }
- nav li:hover {
+}
+nav li:hover {
   font-size: 18px;
   color: #aaf4ff;
-  }
-
+}
 
 header img {
   width: 260px;
@@ -109,8 +130,7 @@ header img {
 }
 
 /* --========== 01 Hero ==========-- */
-
-/* --========== 02 Compare ==========-- */
+/* --========== 02 Without / With Sendly ==========-- */
 
 /* --========== 03 Demo ==========-- */
 
@@ -121,14 +141,9 @@ header img {
   flex-direction: column;
   align-items: center;
   background-image: url("../assets/img/testt.png");
-}
-
-.who h2 {
-  margin-top: 100px;
-  margin-bottom:40px;
-  font-size: 65x;
-  font-weight: 900;
-  text-shadow: rgba(141, 137, 137, 0.61) 1px 1px 1px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .who .sous-title p {
@@ -207,13 +222,179 @@ header img {
   text-align: center;
 }
 /* --========== 05 About ==========-- */
-div.about {
+.about {
+  height: auto;
+  background-image: url("../assets/img/testt.png");
+  padding: 50px;
+}
+.about1 {
+  max-width: 100vw;
   display: flex;
   flex-direction: row;
+  justify-content: center;
+  align-items: stretch;
+  gap: 60px;
+}
+
+.about1 img {
+  width: 400px;
+  height: auto;
+  object-fit: cover;
+  flex-shrink: 0;
+  border-radius: 15px;
+}
+
+.about1 .text {
+  max-width: 400px;
+  flex-shrink: 1;
+  background-color: #f7f8fa;
+  border-radius: 15px;
+  padding: 25px;
+}
+
+.about1 h3 {
+  font-family: "lato";
+  font-weight: 700;
+  font-size: 28px;
+  margin-bottom: 15px;
+  color: #605ba8;
+  padding: 10px 0 0 15px;
+}
+.about1 p {
+  margin-bottom: 0px;
+  padding: 20px 0 0 15px;
+}
+p.story-signature {
+  text-align: right;
+  font-family: "lato";
+  font-weight: 700;
+  font-size: 18px;
+  margin-bottom: 15px;
+  color: #605ba8;
 }
 
 /* --========== 06 Pricing ==========-- */
 
-/* --========== 08 Final ==========-- */
+#prices {
+  height: auto;
+  width: 100vw;
+  background-image: url(../assets/img/bgprices.jpg);
+  min-height: 100vh;
+}
 
+#prices h2 + p {
+  text-align: center;
+  margin-bottom: 3rem;
+  font-size: 25px;
+}
+
+#prices div {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  padding: 3rem;
+  /*flex-wrap: wrap;*/
+  overflow-x: scroll;
+  overflow-y: visible;
+  z-index: 999;
+  min-height: 650px;
+  height: auto;
+  align-items: center;
+}
+
+.pricecard {
+  display: flex;
+  flex-direction: column;
+  /*flex: 1;*/
+  border: 0.2rem solid var(--color-sec);
+  border-radius: 1.5rem;
+  object-fit: cover;
+  padding: 2rem 1.5rem;
+  width: 20%;
+  min-width: 300px;
+  height: 500px;
+  text-align: center;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.06);
+  transition: all 0.6s ease;
+  background-color: var(--g50);
+}
+
+.pricecard:hover {
+  scale: 1.12;
+  background-color: #d2cff7d5;
+}
+
+.pricecard h3 {
+  color: var(--color-prim);
+  font-size: 1.5rem;
+}
+
+.pricecard h3 + p {
+  color: var(--g900);
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+}
+
+.pricecard h3 + p span {
+  font-size: 1.5rem;
+  font-weight: 400;
+  color: var(--g700);
+}
+
+.pricecard ul {
+  border-top: 1px solid #eee;
+  padding-top: 1.2rem;
+  margin-top: 0.5rem;
+}
+
+.pricecard li {
+  display: flex;
+  align-items: center;
+  gap: 0.2rem;
+}
+
+.btn {
+  display: flex;
+  align-self: center;
+  padding: 0.2rem 2rem;
+  background-color: var(--color-sec);
+  border-radius: 1rem;
+  margin: 1.5rem 0;
+  text-align: center;
+  color: var(--g900);
+  transition: all 0.5s ease;
+}
+
+.btn:hover {
+  scale: 1.2;
+}
+
+#premium {
+  border: 0.3rem solid var(--color-prim);
+  box-shadow: 0 10px 35px rgba(124, 58, 178, 0.18);
+  position: relative;
+}
+
+.badge {
+  position: absolute;
+  top: -1.7rem;
+  left: 70%;
+  padding: 0.3rem 1rem;
+  border-radius: 9999px;
+  width: 5rem;
+  transform: rotate(10deg);
+  fill: var(--color-prim);
+}
+
+#premium a {
+  background-color: var(--color-prim);
+  color: var(--g300);
+}
+
+#premium:hover {
+  background-color: #c5ebf1;
+}
+
+/* --========== 08 Final ==========-- */
 /* --========== Footer==========-- */
