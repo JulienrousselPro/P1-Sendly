@@ -19,6 +19,7 @@
     --font-body: "Lato", "Helvetica Neue", Arial, sans-serif;
 }
 
+
 @font-face {
     font-family: "Lato";
     src: url("../fonts/Lato/Lato-Regular.woff2") format("woff2");
@@ -89,7 +90,7 @@ h1 {
     font-weight: bold;
     margin: 3rem 0;
     color: var(--color-sec);
-    
+
 }
 
 /* --========== Header ==========-- */
@@ -107,37 +108,43 @@ header {
     box-shadow: rgba(9, 30, 66, 0.08) 2px 2px 12px 8px;
 }
 
-    header nav {
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
 
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        width: 100%;
-        gap: 1rem;
+header nav {
 
-    }
-
-    header ul {
-
-        display: flex;
-        align-items: center;
-        gap: 0.75rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    gap: 1rem;
 
 }
 
-    header.logo {
+header ul {
 
-        display: block;
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
 
-    }
+}
 
-        header.logo img {
+header.logo {
 
-            height: 48px;
-            width: auto;
-            display: block;
+    display: block;
 
-        }
+}
+
+header.logo img {
+
+    height: 48px;
+    width: auto;
+    display: block;
+
+}
 
 .try-btn {
 
@@ -149,120 +156,120 @@ header {
 }
 
 
-    .try-btn:hover {
+.try-btn:hover {
 
     background-color: #5FC9DA;
     color: #605BA8;
     border: solid #605BA8;
 
-    }
+}
 
 /* --========== 01 Hero ==========-- */
 
 .hero {
 
-    
+
     background:
-    url(../assets/img/desktop_hero.png);
+        url(../assets/img/desktop_hero.png);
     background-size: 50%;
     background-position: right top;
     padding-left: 50px;
     background-repeat: no-repeat;
     min-height: calc(100vh - 72px);
-        
+
 }
 
-    .hero p {
+.hero p {
 
-        font-size: 1.2rem;
-        font-weight: bold;
+    font-size: 1.2rem;
+    font-weight: bold;
 
-    }
+}
 
-    .description {
+.description {
 
-        padding-left: 120px;
-        padding-bottom: 50px;
+    padding-left: 120px;
+    padding-bottom: 50px;
 
-    }
+}
 
 .tick {
 
     fill-opacity: var(--color-prim);
 }
 
-    .hero-li {
+.hero-li {
 
-        display: flex;
-        align-items: center;
-        gap: 10px;
-        padding-left: 120px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding-left: 120px;
 
-    }
+}
 
-        .hero-li img {
-            width: 30px;
-            height: 30px;
-            object-fit: cover;
-        }
+.hero-li img {
+    width: 30px;
+    height: 30px;
+    object-fit: cover;
+}
 
-    .hero-btn {
+.hero-btn {
 
-        display: flex;
-        justify-content: center;
-        gap: 20px;
-        padding-top: 150px;
-        padding-bottom: 50px;
-        font-size: 1.2rem;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding-top: 150px;
+    padding-bottom: 50px;
+    font-size: 1.2rem;
 
-    }
+}
 
-    #tarifs-btn {
-        
-        border: 2px solid var(--color-prim);
-        border-radius: 7.5px;
-        padding: 2px 15px 2px 15px;
-        color: var(--color-prim);
-        font-weight: 700;
-        transition: transform 0.25s ease, box-shadow 0.25s ease;
-    }
+#tarifs-btn {
 
-        #tarifs-btn:hover {
+    border: 2px solid var(--color-prim);
+    border-radius: 7.5px;
+    padding: 2px 15px 2px 15px;
+    color: var(--color-prim);
+    font-weight: 700;
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
 
-            transform: scale(1.08);
-            box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+#tarifs-btn:hover {
 
-        }
+    transform: scale(1.08);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
 
-    #try-btn {
+}
 
-        border: 2px solid var(--color-sec);
-        background: #4D4990;
-        background: -moz-linear-gradient(top, #4D4990 0%, #605BA8 50%, #3FB3C6 100%);
-        background: -webkit-linear-gradient(top, #4D4990 0%, #605BA8 50%, #3FB3C6 100%);
-        background: linear-gradient(to bottom, #4D4990 0%, #605BA8 50%, #3FB3C6 100%);
-        border-radius: 7.5px;
-        padding: 2px 15px 2px 15px;
-        color: var(--color-sec);
-        font-weight: 700;
-        transition: transform 0.3s ease;
-        
-    }
+#try-btn {
 
-        #try-btn:hover {
+    border: 2px solid var(--color-sec);
+    background: #4D4990;
+    background: -moz-linear-gradient(top, #4D4990 0%, #605BA8 50%, #3FB3C6 100%);
+    background: -webkit-linear-gradient(top, #4D4990 0%, #605BA8 50%, #3FB3C6 100%);
+    background: linear-gradient(to bottom, #4D4990 0%, #605BA8 50%, #3FB3C6 100%);
+    border-radius: 7.5px;
+    padding: 2px 15px 2px 15px;
+    color: var(--color-sec);
+    font-weight: 700;
+    transition: transform 0.3s ease;
 
-            border: 2px solid var(--color-prim);
-            background: #3FB3C6;
-            background: -moz-linear-gradient(top, #5FC9DA  0%, #3FB3C6 50%, #605BA8 100%);
-            background: -webkit-linear-gradient(top, #5FC9DA 0%, #3FB3C6 50%, #605BA8 100%);
-            background: linear-gradient(to bottom, #5FC9DA 0%, #3FB3C6 50%, #605BA8 100%);
-            border-radius: 7.5px;
-            padding: 2px 15px 2px 15px;
-            color: var(--color-prim);
-            font-weight: 700;
-            transform: scale(1.1);
+}
 
-        }
+#try-btn:hover {
+
+    border: 2px solid var(--color-prim);
+    background: #3FB3C6;
+    background: -moz-linear-gradient(top, #5FC9DA 0%, #3FB3C6 50%, #605BA8 100%);
+    background: -webkit-linear-gradient(top, #5FC9DA 0%, #3FB3C6 50%, #605BA8 100%);
+    background: linear-gradient(to bottom, #5FC9DA 0%, #3FB3C6 50%, #605BA8 100%);
+    border-radius: 7.5px;
+    padding: 2px 15px 2px 15px;
+    color: var(--color-prim);
+    font-weight: 700;
+    transform: scale(1.1);
+
+}
 
 
 
@@ -590,7 +597,7 @@ p.story-signature {
 
 
 #prices {
-    height: auto;
+    min-height: calc(100vh - 72px);
     width: 100vw;
     background-image: url(../assets/img/bgprices.jpg);
     min-height: 100vh;
@@ -611,7 +618,6 @@ p.story-signature {
     justify-content: space-around;
     width: 100%;
     padding: 3rem;
-    /*flex-wrap: wrap;*/
     overflow-x: scroll;
     overflow-y: visible;
     z-index: 999;
@@ -624,7 +630,6 @@ p.story-signature {
 .pricecard {
     display: flex;
     flex-direction: column;
-    /*flex: 1;*/
     border: 0.2rem solid var(--color-sec);
     border-radius: 1.5rem;
     object-fit: cover;
@@ -848,21 +853,6 @@ footer {
     padding: 2rem 0;
 }
 
-footer div {
-    align-self: center;
-}
-
-.faq details {
-    border-bottom: 1px solid #e5e7eb;
-    padding: 1rem;
-    background-color: var(--g100);
-    border: 1px solid var(--color-prim);
-    border-radius: 1rem;
-    margin: 0.3rem 5rem;
-    width: 50%;
-}
-
-/* --========== Footer==========-- */
 footer div {
     align-self: center;
 }
