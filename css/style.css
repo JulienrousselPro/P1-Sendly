@@ -152,7 +152,7 @@ header .logo img {
 
 /* --========== 02 Compare ==========-- */
 
-Main section div {
+Main section div.another_logo {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
@@ -160,21 +160,21 @@ Main section div {
     margin: 10rem 12rem 0 10rem;
 }
 
-main section div h2.another {
+main section div.another_logo h2.another {
     color: var(--g900);
     font-size: 4rem;
     width: 30%;
     margin: 0;
 }
 
-main section div p {
+main section div.another_logo p {
     color: var(--g900);
     font-size: 4rem;
     font-family: var(--font-body);
     font-weight: 700;
 }
 
-main section div img {
+main section div.another_logo img {
     width: 15rem;
 }
 
