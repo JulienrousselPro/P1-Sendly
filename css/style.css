@@ -153,7 +153,6 @@ header nav ul {
 
 #prices h2 {
     margin-bottom: 1rem;
-    font-size: 58px;
 }
 
 #prices h2+p {
@@ -174,6 +173,7 @@ header nav ul {
     min-height: 650px;
     height: auto;
     align-items: center;
+    gap: 2rem;
 }
 
 .pricecard {
@@ -231,7 +231,7 @@ header nav ul {
 .btn {
     display: flex;
     align-self: center;
-    padding: 0.2rem 2rem;
+    padding: 0.2rem 4rem;
     background-color: var(--color-sec);
     border-radius: 1rem;
     margin: 1.5rem 0;
@@ -272,25 +272,50 @@ header nav ul {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* --========== 08 Final ==========-- */
+.faq {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.faq summary {
+    list-style: none;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 600;
+    padding: 0.5rem;
+}
+
+.faq details {
+    border-bottom: 1px solid #e5e7eb;
+    padding: 1rem;
+    background-color: var(--g100);
+    border: 1px solid var(--color-sec-dark);
+    border-radius: 1rem;
+    margin: 0.3rem 5rem;
+
+    width: 50%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* --========== Footer==========-- */
