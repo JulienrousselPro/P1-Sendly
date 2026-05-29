@@ -133,7 +133,11 @@ header img {
     padding: 10px 35px 20px 35px;
 }
 
+<<<<<<< HEAD
 <<<<<<< HEAD header.logo {
+=======
+header.logo {
+>>>>>>> 06e26adf2fec4a0ae111b70ec192211323cdd05a
     display: block;
 }
 
@@ -152,12 +156,15 @@ header .logo img {
     padding: 10px;
 }
 
+<<<<<<< HEAD
 =======h1 {
     text-align: left;
     font-size: 3.5rem;
     margin: 3rem 0;
     color: var(--color-sec);
     >>>>>>>origin/main
+=======
+>>>>>>> 06e26adf2fec4a0ae111b70ec192211323cdd05a
 }
 
 /* --========== 01 Hero ==========-- */
@@ -588,10 +595,15 @@ p.story-signature {
 }
 
 .btn:hover {
+<<<<<<< HEAD
     <<<<<<< HEAD scale: 1.2;
     background-color: var(--color-sec-dark);
     =======scale: 1.2;
     >>>>>>>origin/main
+=======
+    scale: 1.2;
+    background-color: var(--color-sec-dark);
+>>>>>>> 06e26adf2fec4a0ae111b70ec192211323cdd05a
 }
 
 #premium {
@@ -621,6 +633,10 @@ p.story-signature {
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+>>>>>>> 06e26adf2fec4a0ae111b70ec192211323cdd05a
 /* --========== 07 FAQ ==========-- */
 
 
@@ -639,7 +655,11 @@ p.story-signature {
     margin: 0.3rem 5rem;
     box-shadow: 6px 6px 15px 2px rgba(0, 0, 0, 0.17);
     width: 50%;
+<<<<<<< HEAD
     =======
+=======
+}
+>>>>>>> 06e26adf2fec4a0ae111b70ec192211323cdd05a
 
     /* --========== 08 Final ==========-- */
     .faq {
@@ -649,6 +669,7 @@ p.story-signature {
         >>>>>>>origin/main
     }
 
+<<<<<<< HEAD
     .faq summary {
         list-style: none;
         cursor: pointer;
@@ -658,6 +679,20 @@ p.story-signature {
         font-weight: 600;
         padding: 0.5rem;
     }
+=======
+.faq-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    border: 2px solid var(--color-prim);
+    color: var(--color-prim);
+    font-size: 2rem;
+    transition: transform 0.5s ease;
+}
+>>>>>>> 06e26adf2fec4a0ae111b70ec192211323cdd05a
 
     <<<<<<< HEAD .faq-icon {
         display: flex;
@@ -737,6 +772,7 @@ p.story-signature {
         padding: 2rem 0;
     }
 
+<<<<<<< HEAD
     footer div {
         align-self: center;
     }
@@ -753,3 +789,8 @@ p.story-signature {
 
     /* --========== Footer==========-- */
     >>>>>>>origin/main
+=======
+footer div {
+    align-self: center;
+}
+>>>>>>> 06e26adf2fec4a0ae111b70ec192211323cdd05a
