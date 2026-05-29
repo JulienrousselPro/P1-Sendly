@@ -530,13 +530,7 @@ article.sendly ul li.endroit {
 /* --==============================-- */
 /* --========== 05 ABOUT ==========-- */
 /* --==============================-- */
-.about {
-  max-height: 100vh;
-  background-image: url("../assets/img/testt.png");
-  padding: 15px;
-  margin-bottom: 75px;
-}
-/* --============= FLIPCARD ===============-- */
+
 .about {
   min-height: calc(100vh - 72px);
   padding: 50px 0;
