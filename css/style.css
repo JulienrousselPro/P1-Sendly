@@ -133,32 +133,11 @@ header img {
     padding: 10px 35px 20px 35px;
 }
 
-<<<<<<< HEAD
 h1 {
     text-align: left;
     font-size: 3.5rem;
     margin: 3rem 0;
     color: var(--color-sec);
-=======
-header.logo {
-    display: block;
-}
-
-header .logo img {
-    height: 48px;
-    width: auto;
-    display: block;
-}
-
-.try-btn {
-
-    background-color: #605BA8;
-    color: #5FC9DA;
-    border: solid #5FC9DA;
-    border-radius: 15px;
-    padding: 10px;
-
->>>>>>> 5a40948665ce5d5e5d396d0b60102ab8a60410fa
 }
 
 /* --========== 01 Hero ==========-- */
@@ -173,11 +152,7 @@ header .logo img {
 
 /* --========== 02 Compare ==========-- */
 
-<<<<<<< HEAD
-Main section div {
-=======
-Main section div.another_logo {
->>>>>>> 5a40948665ce5d5e5d396d0b60102ab8a60410fa
+.another_logo {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
@@ -185,37 +160,24 @@ Main section div.another_logo {
     margin: 10rem 12rem 0 10rem;
 }
 
-<<<<<<< HEAD
-main section div h2.another {
-=======
-main section div.another_logo h2.another {
->>>>>>> 5a40948665ce5d5e5d396d0b60102ab8a60410fa
+.another_logo h2 {
     color: var(--g900);
     font-size: 4rem;
     width: 30%;
     margin: 0;
 }
 
-<<<<<<< HEAD
-main section div p {
-=======
-main section div.another_logo p {
->>>>>>> 5a40948665ce5d5e5d396d0b60102ab8a60410fa
+.another_logo p {
     color: var(--g900);
     font-size: 4rem;
     font-family: var(--font-body);
     font-weight: 700;
 }
 
-<<<<<<< HEAD
-main section div img {
-    width: 15rem;
-=======
-main section div.another_logo img {
+.another_logo img {
     width: 15rem;
     filter: drop-shadow(4px 4px 10px var(--color-sec));
     transform: translateY(-8px)
->>>>>>> 5a40948665ce5d5e5d396d0b60102ab8a60410fa
 }
 
 .without {
@@ -235,57 +197,43 @@ main section div.another_logo img {
     border: 2px solid var(--g900);
     border-radius: 10%;
     padding: 40px;
-<<<<<<< HEAD
-=======
 
 }
 
-.without article.avant {
-    webkit-box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000, 2px -4px 10px -1px var(--g500);
+.avant {
+    -webkit-box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000, 2px -4px 10px -1px var(--g500);
     box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000, 2px -4px 10px -1px var(--g700);
->>>>>>> 5a40948665ce5d5e5d396d0b60102ab8a60410fa
 }
 
-.without article.avant ul {
+.avant ul {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(3, 1fr);
     gap: 2rem;
-<<<<<<< HEAD
-=======
-
->>>>>>> 5a40948665ce5d5e5d396d0b60102ab8a60410fa
 }
 
-.without article.avant ul li {
+.avant ul li {
     display: flex;
     border-radius: 10%;
     border: 2px solid var(--g900);
     padding: 5%;
-<<<<<<< HEAD
-    background-color: #ffffff;
-=======
     background-color: #FFFFFF;
->>>>>>> 5a40948665ce5d5e5d396d0b60102ab8a60410fa
     height: 220px;
     text-align: center;
     text-align: center;
     flex-direction: column;
     align-items: center;
-<<<<<<< HEAD
-=======
-    webkit-box-shadow: 2px -2px 5px -1px var(--g500);
+    -webkit-box-shadow: 2px -2px 5px -1px var(--g500);
     box-shadow: 2px -2px 5px -1px var(--g700);
 
->>>>>>> 5a40948665ce5d5e5d396d0b60102ab8a60410fa
 }
 
-.without article.avant ul li.perte {
+.avant ul li.perte {
     grid-column-start: 1;
     grid-row-start: 2;
 }
 
-.without article.avant ul li.trop {
+.avant ul li.trop {
     grid-column-start: 2;
     grid-row-start: 2;
 }
@@ -308,11 +256,8 @@ main section div.another_logo img {
     border: 4px solid var(--color-prim-dark);
     border-radius: 10%;
     padding: 40px;
-<<<<<<< HEAD
-=======
-    webkit-box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000, 2px -4px 10px -1px var(--color-prim-dark);
+    -webkit-box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000, 2px -4px 10px -1px var(--color-prim-dark);
     box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000, 2px -4px 10px -1px var(--color-prim);
->>>>>>> 5a40948665ce5d5e5d396d0b60102ab8a60410fa
 }
 
 .without article.sendly ul {
@@ -327,20 +272,13 @@ main section div.another_logo img {
     border-radius: 10%;
     border: 4px solid var(--color-sec-dark);
     padding: 5%;
-<<<<<<< HEAD
-    background-color: #ffffff;
-=======
     background-color: #FFFFFF;
->>>>>>> 5a40948665ce5d5e5d396d0b60102ab8a60410fa
     height: 220px;
     text-align: center;
     flex-direction: column;
     align-items: center;
-<<<<<<< HEAD
-=======
-    webkit-box-shadow: 2px -4px 10px -1px var(--color-prim);
+    -webkit-box-shadow: 2px -4px 10px -1px var(--color-prim);
     box-shadow: 2px -4px 10px -1px var(--color-prim-dark);
->>>>>>> 5a40948665ce5d5e5d396d0b60102ab8a60410fa
 }
 
 .without article.sendly ul li.simple {
@@ -722,6 +660,7 @@ p.story-signature {
     justify-content: center;
     align-items: center;
     height: auto;
+    background-image: url(../assets/img/Background_bleu_illustration_10.jpg);
 }
 
 .final p {
@@ -770,8 +709,9 @@ footer {
 
 footer div {
     align-self: center;
-<<<<<<< HEAD
 }
-=======
+
+
+html {
+    scroll-snap-type: y mandatory;
 }
->>>>>>> 5a40948665ce5d5e5d396d0b60102ab8a60410fa
