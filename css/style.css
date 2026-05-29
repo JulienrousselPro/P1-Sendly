@@ -17,8 +17,6 @@
     /* --========== Fonts ==========-- */
     --font-title: "Futura", "Century Gothic", "Trebuchet MS", sans-serif;
     --font-body: "Lato", "Helvetica Neue", Arial, sans-serif;
-<<<<<<< HEAD
-=======
 }
 
 @import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
@@ -29,67 +27,34 @@
     font-weight: 400;
     font-style: normal;
     font-display: swap;
->>>>>>> origin/main
 }
 
 @font-face {
     font-family: "Lato";
-<<<<<<< HEAD
-    src: url("../fonts/Lato/Lato-Regular.woff2") format("woff2");
-    font-weight: 400;
-    font-style: normal;
-=======
     src: url("../fonts/Lato/Lato-Italic.woff2") format("woff2");
     font-weight: 400;
     font-style: italic;
->>>>>>> origin/main
     font-display: swap;
 }
 
 @font-face {
     font-family: "Lato";
-<<<<<<< HEAD
-    src: url("../fonts/Lato/Lato-Italic.woff2") format("woff2");
-    font-weight: 400;
-    font-style: italic;
-=======
     src: url("../fonts/Lato/Lato-Bold.woff2") format("woff2");
     font-weight: 700;
     font-style: normal;
->>>>>>> origin/main
     font-display: swap;
 }
 
 @font-face {
-<<<<<<< HEAD
-    font-family: "Lato";
-    src: url("../fonts/Lato/Lato-Bold.woff2") format("woff2");
-    font-weight: 700;
-=======
     font-family: "Futura PT";
     src: url("../fonts/futura-pt/FuturaCyrillicBook.ttf") format("truetype");
     font-weight: 400;
->>>>>>> origin/main
     font-style: normal;
     font-display: swap;
 }
 
 @font-face {
     font-family: "Futura PT";
-<<<<<<< HEAD
-    src: url("../fonts/futura-pt/FuturaCyrillicBook.ttf") format("truetype");
-    font-weight: 400;
-=======
-    src: url("../fonts/futura-pt/FuturaCyrillicDemi.ttf") format("truetype");
-    font-weight: 600;
->>>>>>> origin/main
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: "Futura PT";
-<<<<<<< HEAD
     src: url("../fonts/futura-pt/FuturaCyrillicDemi.ttf") format("truetype");
     font-weight: 600;
     font-style: normal;
@@ -98,8 +63,6 @@
 
 @font-face {
     font-family: "Futura PT";
-=======
->>>>>>> origin/main
     src: url("../fonts/futura-pt/FuturaCyrillicBold.ttf") format("truetype");
     font-weight: 700;
     font-style: normal;
@@ -114,22 +77,10 @@ body {
 }
 
 h2 {
-<<<<<<< HEAD
-=======
-
->>>>>>> origin/main
     text-align: center;
     font-size: 3rem;
     margin: 3rem 0;
     color: var(--color-sec);
-<<<<<<< HEAD
-    margin-top: 100px;
-    margin-bottom: 40px;
-    font-size: 55px;
-    font-weight: 900;
-    text-shadow: rgba(141, 137, 137, 0.61) 1px 1px 1px;
-    text-transform: uppercase;
-=======
 
 }
 
@@ -140,8 +91,7 @@ h1 {
     font-weight: bold;
     margin: 3rem 0;
     color: var(--color-sec);
-    
->>>>>>> origin/main
+
 }
 
 /* --========== Header ==========-- */
@@ -163,71 +113,39 @@ nav {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-<<<<<<< HEAD
 }
 
-nav ul {
+header nav {
+
     display: flex;
-    flex-direction: row;
-    padding: 25px 40px 25px 0;
-    gap: 20px;
-}
-
-nav li {
-    font-size: 18px;
-    color: white;
-    font-weight: 900;
-}
-
-nav li:hover {
-    font-size: 18px;
-    color: #aaf4ff;
-}
-
-header img {
-    width: 260px;
-    padding: 10px 35px 20px 35px;
-}
-
-h1 {
-    text-align: left;
-    font-size: 3.5rem;
-    margin: 3rem 0;
-    color: var(--color-sec);
-=======
-}
-
-    header nav {
-
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        width: 100%;
-        gap: 1rem;
-
-    }
-
-    header ul {
-
-        display: flex;
-        align-items: center;
-        gap: 0.75rem;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    gap: 1rem;
 
 }
 
-    header.logo {
+header ul {
 
-        display: block;
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
 
-    }
+}
 
-        header.logo img {
+header.logo {
 
-            height: 48px;
-            width: auto;
-            display: block;
+    display: block;
 
-        }
+}
+
+header.logo img {
+
+    height: 48px;
+    width: auto;
+    display: block;
+
+}
 
 .try-btn {
 
@@ -236,132 +154,123 @@ h1 {
     border: solid #5FC9DA;
     border-radius: 15px;
     padding: 10px;
->>>>>>> origin/main
 }
 
 
-    .try-btn:hover {
+.try-btn:hover {
 
     background-color: #5FC9DA;
     color: #605BA8;
     border: solid #605BA8;
 
-    }
+}
 
 /* --========== 01 Hero ==========-- */
 
 .hero {
-<<<<<<< HEAD
-    background-image: url(../assets/img/desktop_hero.png);
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: right;
-    margin-top: 10px;
-=======
 
-    
+
     background:
-    url(../assets/img/desktop_hero.png);
+        url(../assets/img/desktop_hero.png);
     background-size: 50%;
     background-position: right top;
     padding-left: 50px;
     background-repeat: no-repeat;
     min-height: calc(100vh - 72px);
-        
->>>>>>> origin/main
+
 }
 
-    .hero p {
+.hero p {
 
-        font-size: 1.2rem;
-        font-weight: bold;
+    font-size: 1.2rem;
+    font-weight: bold;
 
-    }
+}
 
-    .description {
+.description {
 
-        padding-left: 120px;
-        padding-bottom: 50px;
+    padding-left: 120px;
+    padding-bottom: 50px;
 
-    }
+}
 
 .tick {
 
     fill-opacity: var(--color-prim);
 }
 
-    .hero-li {
+.hero-li {
 
-        display: flex;
-        align-items: center;
-        gap: 10px;
-        padding-left: 120px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding-left: 120px;
 
-    }
+}
 
-        .hero-li img {
-            width: 30px;
-            height: 30px;
-            object-fit: cover;
-        }
+.hero-li img {
+    width: 30px;
+    height: 30px;
+    object-fit: cover;
+}
 
-    .hero-btn {
+.hero-btn {
 
-        display: flex;
-        justify-content: center;
-        gap: 20px;
-        padding-top: 150px;
-        padding-bottom: 50px;
-        font-size: 1.2rem;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding-top: 150px;
+    padding-bottom: 50px;
+    font-size: 1.2rem;
 
-    }
+}
 
-    #tarifs-btn {
-        
-        border: 2px solid var(--color-prim);
-        border-radius: 7.5px;
-        padding: 2px 15px 2px 15px;
-        color: var(--color-prim);
-        font-weight: 700;
-        transition: transform 0.25s ease, box-shadow 0.25s ease;
-    }
+#tarifs-btn {
 
-        #tarifs-btn:hover {
+    border: 2px solid var(--color-prim);
+    border-radius: 7.5px;
+    padding: 2px 15px 2px 15px;
+    color: var(--color-prim);
+    font-weight: 700;
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
 
-            transform: scale(1.08);
-            box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+#tarifs-btn:hover {
 
-        }
+    transform: scale(1.08);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
 
-    #try-btn {
+}
 
-        border: 2px solid var(--color-sec);
-        background: #4D4990;
-        background: -moz-linear-gradient(top, #4D4990 0%, #605BA8 50%, #3FB3C6 100%);
-        background: -webkit-linear-gradient(top, #4D4990 0%, #605BA8 50%, #3FB3C6 100%);
-        background: linear-gradient(to bottom, #4D4990 0%, #605BA8 50%, #3FB3C6 100%);
-        border-radius: 7.5px;
-        padding: 2px 15px 2px 15px;
-        color: var(--color-sec);
-        font-weight: 700;
-        transition: transform 0.3s ease;
-        
-    }
+#try-btn {
 
-        #try-btn:hover {
+    border: 2px solid var(--color-sec);
+    background: #4D4990;
+    background: -moz-linear-gradient(top, #4D4990 0%, #605BA8 50%, #3FB3C6 100%);
+    background: -webkit-linear-gradient(top, #4D4990 0%, #605BA8 50%, #3FB3C6 100%);
+    background: linear-gradient(to bottom, #4D4990 0%, #605BA8 50%, #3FB3C6 100%);
+    border-radius: 7.5px;
+    padding: 2px 15px 2px 15px;
+    color: var(--color-sec);
+    font-weight: 700;
+    transition: transform 0.3s ease;
 
-            border: 2px solid var(--color-prim);
-            background: #3FB3C6;
-            background: -moz-linear-gradient(top, #5FC9DA  0%, #3FB3C6 50%, #605BA8 100%);
-            background: -webkit-linear-gradient(top, #5FC9DA 0%, #3FB3C6 50%, #605BA8 100%);
-            background: linear-gradient(to bottom, #5FC9DA 0%, #3FB3C6 50%, #605BA8 100%);
-            border-radius: 7.5px;
-            padding: 2px 15px 2px 15px;
-            color: var(--color-prim);
-            font-weight: 700;
-            transform: scale(1.1);
+}
 
-        }
+#try-btn:hover {
+
+    border: 2px solid var(--color-prim);
+    background: #3FB3C6;
+    background: -moz-linear-gradient(top, #5FC9DA 0%, #3FB3C6 50%, #605BA8 100%);
+    background: -webkit-linear-gradient(top, #5FC9DA 0%, #3FB3C6 50%, #605BA8 100%);
+    background: linear-gradient(to bottom, #5FC9DA 0%, #3FB3C6 50%, #605BA8 100%);
+    border-radius: 7.5px;
+    padding: 2px 15px 2px 15px;
+    color: var(--color-prim);
+    font-weight: 700;
+    transform: scale(1.1);
+
+}
 
 
 
@@ -418,11 +327,7 @@ h1 {
 
 }
 
-<<<<<<< HEAD
-.avant {
-=======
 .without article.avant {
->>>>>>> origin/main
     -webkit-box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000, 2px -4px 10px -1px var(--g500);
     box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000, 2px -4px 10px -1px var(--g700);
 }
@@ -450,20 +355,12 @@ h1 {
 
 }
 
-<<<<<<< HEAD
-.avant ul li.perte {
-=======
 .without article.avant ul li.perte {
->>>>>>> origin/main
     grid-column-start: 1;
     grid-row-start: 2;
 }
 
-<<<<<<< HEAD
-.avant ul li.trop {
-=======
 .without article.avant ul li.trop {
->>>>>>> origin/main
     grid-column-start: 2;
     grid-row-start: 2;
 }
@@ -701,11 +598,7 @@ p.story-signature {
 
 
 #prices {
-<<<<<<< HEAD
     min-height: calc(100vh - 72px);
-=======
-    height: auto;
->>>>>>> origin/main
     width: 100vw;
     background-image: url(../assets/img/bgprices.jpg);
     min-height: 100vh;
@@ -726,10 +619,6 @@ p.story-signature {
     justify-content: space-around;
     width: 100%;
     padding: 3rem;
-<<<<<<< HEAD
-=======
-    /*flex-wrap: wrap;*/
->>>>>>> origin/main
     overflow-x: scroll;
     overflow-y: visible;
     z-index: 999;
@@ -742,10 +631,6 @@ p.story-signature {
 .pricecard {
     display: flex;
     flex-direction: column;
-<<<<<<< HEAD
-=======
-    /*flex: 1;*/
->>>>>>> origin/main
     border: 0.2rem solid var(--color-sec);
     border-radius: 1.5rem;
     object-fit: cover;
@@ -875,8 +760,6 @@ p.story-signature {
     align-items: center;
     font-weight: 600;
     padding: 0.5rem;
-<<<<<<< HEAD
-=======
 }
 
 .faq-icon {
@@ -890,7 +773,6 @@ p.story-signature {
     color: var(--color-prim);
     font-size: 2rem;
     transition: transform 0.5s ease;
->>>>>>> origin/main
 }
 
 .faq-icon {
@@ -974,22 +856,4 @@ footer {
 
 footer div {
     align-self: center;
-<<<<<<< HEAD
-=======
-}
-
-.faq details {
-    border-bottom: 1px solid #e5e7eb;
-    padding: 1rem;
-    background-color: var(--g100);
-    border: 1px solid var(--color-prim);
-    border-radius: 1rem;
-    margin: 0.3rem 5rem;
-    width: 50%;
-}
-
-/* --========== Footer==========-- */
-footer div {
-    align-self: center;
->>>>>>> origin/main
 }
