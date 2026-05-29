@@ -129,7 +129,6 @@ header img {
   padding: 10px 35px 20px 35px;
 }
 
-<<<<<<< HEAD
 header.logo {
     display: block;
 }
@@ -148,13 +147,6 @@ header .logo img {
     border-radius: 15px;
     padding: 10px;
 
-=======
-h1 {
-  text-align: left;
-  font-size: 3.5rem;
-  margin: 3rem 0;
-  color: var(--color-sec);
->>>>>>> origin/main
 }
 
 /* --========== 01 Hero ==========-- */
@@ -169,30 +161,32 @@ h1 {
 
 /* --========== 02 Compare ==========-- */
 
-Main section div {
-  display: flex;
-  align-items: center;
-  justify-content: space-evenly;
-  gap: 150px;
-  margin: 10rem 12rem 0 10rem;
+Main section div.another_logo {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 150px;
+    margin: 10rem 12rem 0 10rem;
 }
 
-main section div h2.another {
-  color: var(--g900);
-  font-size: 4rem;
-  width: 30%;
-  margin: 0;
+main section div.another_logo h2.another {
+    color: var(--g900);
+    font-size: 4rem;
+    width: 30%;
+    margin: 0;
 }
 
-main section div p {
-  color: var(--g900);
-  font-size: 4rem;
-  font-family: var(--font-body);
-  font-weight: 700;
+main section div.another_logo p {
+    color: var(--g900);
+    font-size: 4rem;
+    font-family: var(--font-body);
+    font-weight: 700;
 }
 
-main section div img {
-  width: 15rem;
+main section div.another_logo img {
+    width: 15rem;
+    filter: drop-shadow(4px 4px 10px var(--color-sec));
+    transform: translateY(-8px)
 }
 
 .without {
@@ -205,33 +199,43 @@ main section div img {
 }
 
 .without article {
-  flex: 1 1 0;
-  margin: 2rem;
-  background-color: var(--g100);
-  width: 50px;
-  border: 2px solid var(--g900);
-  border-radius: 10%;
-  padding: 40px;
+    flex: 1 1 0;
+    margin: 2rem;
+    background-color: var(--g100);
+    width: 50px;
+    border: 2px solid var(--g900);
+    border-radius: 10%;
+    padding: 40px;
+
+}
+
+.without article.avant {
+    webkit-box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000, 2px -4px 10px -1px var(--g500);
+    box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000, 2px -4px 10px -1px var(--g700);
 }
 
 .without article.avant ul {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: repeat(3, 1fr);
-  gap: 2rem;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 2rem;
+
 }
 
 .without article.avant ul li {
-  display: flex;
-  border-radius: 10%;
-  border: 2px solid var(--g900);
-  padding: 5%;
-  background-color: #ffffff;
-  height: 220px;
-  text-align: center;
-  text-align: center;
-  flex-direction: column;
-  align-items: center;
+    display: flex;
+    border-radius: 10%;
+    border: 2px solid var(--g900);
+    padding: 5%;
+    background-color: #FFFFFF;
+    height: 220px;
+    text-align: center;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    webkit-box-shadow: 2px -2px 5px -1px var(--g500);
+    box-shadow: 2px -2px 5px -1px var(--g700);
+
 }
 
 .without article.avant ul li.perte {
@@ -255,13 +259,15 @@ main section div img {
 }
 
 .without article.sendly {
-  flex: 1 1 0;
-  margin: 2rem;
-  background-color: var(--g100);
-  width: 50px;
-  border: 4px solid var(--color-prim-dark);
-  border-radius: 10%;
-  padding: 40px;
+    flex: 1 1 0;
+    margin: 2rem;
+    background-color: var(--g100);
+    width: 50px;
+    border: 4px solid var(--color-prim-dark);
+    border-radius: 10%;
+    padding: 40px;
+    webkit-box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000, 2px -4px 10px -1px var(--color-prim-dark);
+    box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000, 2px -4px 10px -1px var(--color-prim);
 }
 
 .without article.sendly ul {
@@ -272,15 +278,17 @@ main section div img {
 }
 
 .without article.sendly ul li {
-  display: flex;
-  border-radius: 10%;
-  border: 4px solid var(--color-sec-dark);
-  padding: 5%;
-  background-color: #ffffff;
-  height: 220px;
-  text-align: center;
-  flex-direction: column;
-  align-items: center;
+    display: flex;
+    border-radius: 10%;
+    border: 4px solid var(--color-sec-dark);
+    padding: 5%;
+    background-color: #FFFFFF;
+    height: 220px;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    webkit-box-shadow: 2px -4px 10px -1px var(--color-prim);
+    box-shadow: 2px -4px 10px -1px var(--color-prim-dark);
 }
 
 .without article.sendly ul li.simple {
@@ -562,12 +570,8 @@ p.story-signature {
 }
 
 .btn:hover {
-<<<<<<< HEAD
     scale: 1.2;
     background-color: var(--color-sec-dark);
-=======
-  scale: 1.2;
->>>>>>> origin/main
 }
 
 #premium {
@@ -596,7 +600,6 @@ p.story-signature {
   background-color: #c5ebf1;
 }
 
-<<<<<<< HEAD
 
 /* --========== 07 FAQ ==========-- */
 
@@ -616,13 +619,6 @@ p.story-signature {
     margin: 0.3rem 5rem;
     box-shadow: 6px 6px 15px 2px rgba(0, 0, 0, 0.17);
     width: 50%;
-=======
-/* --========== 08 Final ==========-- */
-.faq {
-  display: flex;
-  align-items: center;
-  flex-direction: column;
->>>>>>> origin/main
 }
 
 .faq summary {
@@ -635,7 +631,6 @@ p.story-signature {
   padding: 0.5rem;
 }
 
-<<<<<<< HEAD
 .faq-icon {
     display: flex;
     align-items: center;
@@ -717,15 +712,3 @@ footer {
 footer div {
     align-self: center;
 }
-=======
-.faq details {
-  border-bottom: 1px solid #e5e7eb;
-  padding: 1rem;
-  background-color: var(--g100);
-  border: 1px solid var(--color-prim);
-  border-radius: 1rem;
-  margin: 0.3rem 5rem;
-  width: 50%;
-}
-/* --========== Footer==========-- */
->>>>>>> origin/main
