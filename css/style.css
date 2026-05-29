@@ -71,8 +71,6 @@
 /* --========== Body ==========-- */
 body {
   font-family: var(--font-body);
-  background-image: url("#");
-  padding-top: 72px;
 }
 
 h2 {
