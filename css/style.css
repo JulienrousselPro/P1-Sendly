@@ -19,6 +19,7 @@
   --font-body: "Lato", "Helvetica Neue", Arial, sans-serif;
 }
 
+
 @font-face {
   font-family: "Lato";
   src: url("../fonts/Lato/Lato-Regular.woff2") format("woff2");
@@ -79,20 +80,17 @@ h2 {
   font-size: 3rem;
   margin: 3rem 0;
   color: var(--color-sec);
-  margin-top: 100px;
-  margin-bottom: 25px;
-  font-size: 55px;
-  font-weight: 900;
-  text-shadow: rgba(141, 137, 137, 0.61) 1px 1px 1px;
-  text-transform: uppercase;
+
 }
 
 h1 {
+
   text-align: left;
   font-size: 3.5rem;
   font-weight: bold;
   margin: 3rem 0;
   color: var(--color-sec);
+
 }
 
 /* --========== Header ==========-- */
@@ -117,73 +115,96 @@ nav {
 }
 
 header nav {
+
   display: flex;
   align-items: center;
   justify-content: space-between;
   width: 100%;
   gap: 1rem;
+
 }
 
 header ul {
+
   display: flex;
   align-items: center;
   gap: 0.75rem;
+
 }
 
 header.logo {
+
   display: block;
+
 }
 
 header.logo img {
+
   height: 48px;
   width: auto;
   display: block;
+
 }
 
 .try-btn {
-  background-color: #605ba8;
-  color: #5fc9da;
-  border: solid #5fc9da;
+
+  background-color: #605BA8;
+  color: #5FC9DA;
+  border: solid #5FC9DA;
   border-radius: 15px;
   padding: 10px;
 }
 
+
 .try-btn:hover {
-  background-color: #5fc9da;
-  color: #605ba8;
-  border: solid #605ba8;
+
+  background-color: #5FC9DA;
+  color: #605BA8;
+  border: solid #605BA8;
+
 }
 
 /* --========== 01 Hero ==========-- */
 
 .hero {
-  background: url(../assets/img/desktop_hero.png);
+
+
+  background:
+    url(../assets/img/desktop_hero.png);
   background-size: 50%;
   background-position: right top;
   padding-left: 50px;
   background-repeat: no-repeat;
   min-height: calc(100vh - 72px);
+
 }
 
 .hero p {
+
   font-size: 1.2rem;
   font-weight: bold;
+
 }
 
 .description {
+
   padding-left: 120px;
   padding-bottom: 50px;
+
 }
 
 .tick {
+
   fill-opacity: var(--color-prim);
 }
 
 .hero-li {
+
   display: flex;
   align-items: center;
   gap: 10px;
   padding-left: 120px;
+
 }
 
 .hero-li img {
@@ -193,65 +214,67 @@ header.logo img {
 }
 
 .hero-btn {
+
   display: flex;
   justify-content: center;
   gap: 20px;
   padding-top: 150px;
   padding-bottom: 50px;
   font-size: 1.2rem;
+
 }
 
 #tarifs-btn {
+
   border: 2px solid var(--color-prim);
   border-radius: 7.5px;
   padding: 2px 15px 2px 15px;
   color: var(--color-prim);
   font-weight: 700;
-  transition:
-    transform 0.25s ease,
-    box-shadow 0.25s ease;
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
 }
 
 #tarifs-btn:hover {
+
   transform: scale(1.08);
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+
 }
 
 #try-btn {
+
   border: 2px solid var(--color-sec);
-  background: #4d4990;
-  background: -moz-linear-gradient(top, #4d4990 0%, #605ba8 50%, #3fb3c6 100%);
-  background: -webkit-linear-gradient(
-    top,
-    #4d4990 0%,
-    #605ba8 50%,
-    #3fb3c6 100%
-  );
-  background: linear-gradient(to bottom, #4d4990 0%, #605ba8 50%, #3fb3c6 100%);
+  background: #4D4990;
+  background: -moz-linear-gradient(top, #4D4990 0%, #605BA8 50%, #3FB3C6 100%);
+  background: -webkit-linear-gradient(top, #4D4990 0%, #605BA8 50%, #3FB3C6 100%);
+  background: linear-gradient(to bottom, #4D4990 0%, #605BA8 50%, #3FB3C6 100%);
   border-radius: 7.5px;
   padding: 2px 15px 2px 15px;
   color: var(--color-sec);
   font-weight: 700;
   transition: transform 0.3s ease;
+
 }
 
 #try-btn:hover {
+
   border: 2px solid var(--color-prim);
-  background: #3fb3c6;
-  background: -moz-linear-gradient(top, #5fc9da 0%, #3fb3c6 50%, #605ba8 100%);
-  background: -webkit-linear-gradient(
-    top,
-    #5fc9da 0%,
-    #3fb3c6 50%,
-    #605ba8 100%
-  );
-  background: linear-gradient(to bottom, #5fc9da 0%, #3fb3c6 50%, #605ba8 100%);
+  background: #3FB3C6;
+  background: -moz-linear-gradient(top, #5FC9DA 0%, #3FB3C6 50%, #605BA8 100%);
+  background: -webkit-linear-gradient(top, #5FC9DA 0%, #3FB3C6 50%, #605BA8 100%);
+  background: linear-gradient(to bottom, #5FC9DA 0%, #3FB3C6 50%, #605BA8 100%);
   border-radius: 7.5px;
   padding: 2px 15px 2px 15px;
   color: var(--color-prim);
   font-weight: 700;
   transform: scale(1.1);
+
 }
+
+
+
+
+
 
 /* --========== 02 Compare ==========-- */
 
@@ -301,14 +324,8 @@ header.logo img {
 }
 
 .without article.avant {
-  -webkit-box-shadow:
-    -10px 0px 13px -7px #000000,
-    10px 0px 13px -7px #000000,
-    2px -4px 10px -1px var(--g500);
-  box-shadow:
-    -10px 0px 13px -7px #000000,
-    10px 0px 13px -7px #000000,
-    2px -4px 10px -1px var(--g700);
+  -webkit-box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000, 2px -4px 10px -1px var(--g500);
+  box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000, 2px -4px 10px -1px var(--g700);
 }
 
 .avant ul {
@@ -323,7 +340,7 @@ header.logo img {
   border-radius: 10%;
   border: 2px solid var(--g900);
   padding: 5%;
-  background-color: #ffffff;
+  background-color: #FFFFFF;
   height: 220px;
   text-align: center;
   text-align: center;
@@ -359,14 +376,8 @@ header.logo img {
   border: 4px solid var(--color-prim-dark);
   border-radius: 5%;
   padding: 40px;
-  -webkit-box-shadow:
-    -10px 0px 13px -7px #000000,
-    10px 0px 13px -7px #000000,
-    2px -4px 10px -1px var(--color-prim-dark);
-  box-shadow:
-    -10px 0px 13px -7px #000000,
-    10px 0px 13px -7px #000000,
-    2px -4px 10px -1px var(--color-prim);
+  -webkit-box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000, 2px -4px 10px -1px var(--color-prim-dark);
+  box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000, 2px -4px 10px -1px var(--color-prim);
 }
 
 .without article.sendly ul {
@@ -381,19 +392,13 @@ header.logo img {
   border-radius: 10%;
   border: 4px solid var(--color-sec-dark);
   padding: 5%;
-  background-color: #ffffff;
+  background-color: #FFFFFF;
   height: 220px;
   text-align: center;
   flex-direction: column;
   align-items: center;
-  -webkit-box-shadow:
-    -10px 0px 13px -7px #000000,
-    10px 0px 13px -7px #000000,
-    6px -1px 10px -1px var(--color-prim-dark);
-  box-shadow:
-    -10px 0px 13px -7px #000000,
-    10px 0px 13px -7px #000000,
-    6px -1px 10px -1px var(--color-prim-dark);
+  -webkit-box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000, 6px -1px 10px -1px var(--color-prim-dark);
+  box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000, 6px -1px 10px -1px var(--color-prim-dark);
 }
 
 .without article.sendly ul li.simple {
@@ -421,6 +426,7 @@ article.sendly ul li.endroit {
   background-image: url("../assets/img/testt.png");
 }
 
+
 #demo h2 {
   margin: 0;
 }
@@ -440,10 +446,7 @@ article.sendly ul li.endroit {
   max-width: 800px;
 }
 
-/* --=====================================-- */
 /* --========== 04 Who it's for ==========-- */
-/* --====================================-- */
-
 .who {
   min-height: 100vh;
   display: flex;
@@ -533,6 +536,7 @@ article.sendly ul li.endroit {
   margin: 5px 20px;
   text-align: center;
 }
+
 /* --==============================-- */
 /* --========== 05 ABOUT ==========-- */
 /* --==============================-- */
@@ -579,6 +583,7 @@ article.sendly ul li.endroit {
   height: 100%;
   object-fit: cover;
 }
+
 /* --============= DECO FLIP CARD ===============-- */
 .flip-back {
   background: radial-gradient(circle, #ffffff 26%, #e2e5ea 75%);
@@ -589,9 +594,11 @@ article.sendly ul li.endroit {
   flex-direction: column;
   justify-content: center;
 }
+
 .flip-back img {
   width: 150px;
 }
+
 .header-card {
   display: flex;
   justify-content: center;
@@ -612,6 +619,7 @@ article.sendly ul li.endroit {
   margin-bottom: 0;
   padding-top: 25px;
 }
+
 .flip-back span {
   color: #3fb3c6;
   font-weight: 900;
@@ -628,18 +636,20 @@ article.sendly ul li.endroit {
 
 /* --========== 06 Pricing ==========-- */
 
+
 #prices {
   min-height: calc(100vh - 72px);
   width: 100vw;
   background-image: url(../assets/img/bgprices.jpg);
   min-height: 100vh;
+  overflow-x: hidden;
 }
 
 #prices h2 {
   margin-bottom: 1rem;
 }
 
-#prices h2 + p {
+#prices h2+p {
   text-align: center;
   margin-bottom: 3rem;
   font-size: 25px;
@@ -651,6 +661,7 @@ article.sendly ul li.endroit {
   width: 100%;
   padding: 3rem;
   overflow-x: scroll;
+  scrollbar-width: none;
   overflow-y: visible;
   z-index: 999;
   min-height: 650px;
@@ -685,14 +696,14 @@ article.sendly ul li.endroit {
   font-size: 1.5rem;
 }
 
-.pricecard h3 + p {
+.pricecard h3+p {
   color: var(--g900);
   font-size: 2.5rem;
   font-weight: 700;
   margin-bottom: 1.5rem;
 }
 
-.pricecard h3 + p span {
+.pricecard h3+p span {
   font-size: 1.5rem;
   font-weight: 400;
   color: var(--g700);
@@ -753,7 +764,9 @@ article.sendly ul li.endroit {
   background-color: #c5ebf1;
 }
 
+
 /* --========== 07 FAQ ==========-- */
+
 
 .faq {
   display: flex;
@@ -770,6 +783,7 @@ article.sendly ul li.endroit {
   margin: 0.3rem 5rem;
   box-shadow: 6px 6px 15px 2px rgba(0, 0, 0, 0.17);
   width: 50%;
+
 }
 
 /* --========== 08 Final ==========-- */
@@ -777,6 +791,7 @@ article.sendly ul li.endroit {
   display: flex;
   align-items: center;
   flex-direction: column;
+
 }
 
 .faq summary {
@@ -824,7 +839,9 @@ article.sendly ul li.endroit {
   transform: rotate(45deg);
 }
 
+
 /* --========== 08 Final ==========-- */
+
 
 .final {
   display: flex;
@@ -859,6 +876,7 @@ article.sendly ul li.endroit {
   background-color: var(--color-prim-dark);
 }
 
+
 /* --========== Footer==========-- */
 
 footer {
@@ -867,6 +885,7 @@ footer {
   background-color: var(--color-prim);
   width: 100vw;
   color: var(--g100);
+
 }
 
 .footer-nav {
