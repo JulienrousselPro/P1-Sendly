@@ -129,10 +129,178 @@ header img {
   padding: 10px 35px 20px 35px;
 }
 
+h1 {
+  text-align: left;
+  font-size: 3.5rem;
+  margin: 3rem 0;
+  color: var(--color-sec);
+}
+
 /* --========== 01 Hero ==========-- */
-/* --========== 02 Without / With Sendly ==========-- */
+
+.hero {
+  background-image: url(../assets/img/desktop_hero.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: right;
+  margin-top: 10px;
+}
+
+/* --========== 02 Compare ==========-- */
+
+Main section div {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 150px;
+  margin: 10rem 12rem 0 10rem;
+}
+
+main section div h2.another {
+  color: var(--g900);
+  font-size: 4rem;
+  width: 30%;
+  margin: 0;
+}
+
+main section div p {
+  color: var(--g900);
+  font-size: 4rem;
+  font-family: var(--font-body);
+  font-weight: 700;
+}
+
+main section div img {
+  width: 15rem;
+}
+
+.without {
+  display: flex;
+  width: 100rem;
+  box-sizing: border-box;
+  gap: 20px;
+  width: 100vw;
+  max-width: 100%;
+}
+
+.without article {
+  flex: 1 1 0;
+  margin: 2rem;
+  background-color: var(--g100);
+  width: 50px;
+  border: 2px solid var(--g900);
+  border-radius: 10%;
+  padding: 40px;
+}
+
+.without article.avant ul {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  gap: 2rem;
+}
+
+.without article.avant ul li {
+  display: flex;
+  border-radius: 10%;
+  border: 2px solid var(--g900);
+  padding: 5%;
+  background-color: #ffffff;
+  height: 220px;
+  text-align: center;
+  text-align: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.without article.avant ul li.perte {
+  grid-column-start: 1;
+  grid-row-start: 2;
+}
+
+.without article.avant ul li.trop {
+  grid-column-start: 2;
+  grid-row-start: 2;
+}
+
+.without article.avant ul li.devis {
+  grid-column-start: 1;
+  grid-row-start: 3;
+}
+
+.without article.avant ul li.signature {
+  grid-column-start: 2;
+  grid-row-start: 3;
+}
+
+.without article.sendly {
+  flex: 1 1 0;
+  margin: 2rem;
+  background-color: var(--g100);
+  width: 50px;
+  border: 4px solid var(--color-prim-dark);
+  border-radius: 10%;
+  padding: 40px;
+}
+
+.without article.sendly ul {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  gap: 2rem;
+}
+
+.without article.sendly ul li {
+  display: flex;
+  border-radius: 10%;
+  border: 4px solid var(--color-sec-dark);
+  padding: 5%;
+  background-color: #ffffff;
+  height: 220px;
+  text-align: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.without article.sendly ul li.simple {
+  grid-column-start: 2;
+  grid-row-start: 1;
+}
+
+.without article.sendly ul li.devis5 {
+  grid-column-start: 2;
+  grid-row-start: 2;
+}
+
+article.sendly ul li.endroit {
+  grid-column-start: 1;
+  grid-row-start: 2;
+}
+
+.without article.sendly ul li.pdf {
+  grid-column-start: 2;
+  grid-row-start: 3;
+}
 
 /* --========== 03 Demo ==========-- */
+#demo h2 {
+  margin: 20% 0 0;
+}
+
+#demo h3 {
+  text-align: center;
+  font-size: var(--font-body);
+  color: var(--color-prim-dark);
+  margin-bottom: 5%;
+}
+
+#demo video {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+  max-width: 800px;
+}
 
 /* --========== 04 Who it's for ==========-- */
 .who {
@@ -282,6 +450,10 @@ p.story-signature {
   min-height: 100vh;
 }
 
+#prices h2 {
+  margin-bottom: 1rem;
+}
+
 #prices h2 + p {
   text-align: center;
   margin-bottom: 3rem;
@@ -300,6 +472,7 @@ p.story-signature {
   min-height: 650px;
   height: auto;
   align-items: center;
+  gap: 2rem;
 }
 
 .pricecard {
@@ -357,7 +530,7 @@ p.story-signature {
 .btn {
   display: flex;
   align-self: center;
-  padding: 0.2rem 2rem;
+  padding: 0.2rem 4rem;
   background-color: var(--color-sec);
   border-radius: 1rem;
   margin: 1.5rem 0;
@@ -397,4 +570,29 @@ p.story-signature {
 }
 
 /* --========== 08 Final ==========-- */
+.faq {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.faq summary {
+  list-style: none;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: 600;
+  padding: 0.5rem;
+}
+
+.faq details {
+  border-bottom: 1px solid #e5e7eb;
+  padding: 1rem;
+  background-color: var(--g100);
+  border: 1px solid var(--color-prim);
+  border-radius: 1rem;
+  margin: 0.3rem 5rem;
+  width: 50%;
+}
 /* --========== Footer==========-- */
