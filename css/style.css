@@ -129,7 +129,7 @@ header .logo img {
     border: solid #5FC9DA;
     border-radius: 15px;
     padding: 10px;
-    
+
 }
 
 /* --========== 01 Hero ==========-- */
@@ -211,6 +211,7 @@ header .logo img {
 
 
 /* --========== 06 Pricing ==========-- */
+
 
 #prices {
     height: auto;
@@ -310,6 +311,7 @@ header .logo img {
 
 .btn:hover {
     scale: 1.2;
+    background-color: var(--color-sec-dark);
 }
 
 #premium {
@@ -339,12 +341,24 @@ header .logo img {
 }
 
 
+/* --========== 07 FAQ ==========-- */
 
-/* --========== 08 Final ==========-- */
+
 .faq {
     display: flex;
     align-items: center;
     flex-direction: column;
+    height: auto;
+}
+
+.faq details {
+    border-bottom: 1px solid #e5e7eb;
+    padding: 1rem;
+    border: 2px solid var(--color-prim);
+    border-radius: 1rem;
+    margin: 0.3rem 5rem;
+    box-shadow: 6px 6px 15px 2px rgba(0, 0, 0, 0.17);
+    width: 50%;
 }
 
 .faq summary {
@@ -357,33 +371,84 @@ header .logo img {
     padding: 0.5rem;
 }
 
-.faq details {
-    border-bottom: 1px solid #e5e7eb;
-    padding: 1rem;
-    background-color: var(--g100);
-    border: 1px solid var(--color-prim);
-    border-radius: 1rem;
-    margin: 0.3rem 5rem;
+.faq-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    border: 2px solid var(--color-prim);
+    color: var(--color-prim);
+    font-size: 2rem;
+    transition: transform 0.5s ease;
+}
 
-    width: 50%;
+.faq-icon img {
+    width: 0.8rem;
+    height: auto;
+}
+
+.faq details[open] .faq-icon {
+    transform: rotate(45deg);
 }
 
 
+/* --========== 08 Final ==========-- */
 
 
+.final {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+}
 
+.final p {
+    font-size: 32px;
+}
 
+.final a {
+    display: flex;
+    align-self: center;
+    padding: 1.3rem 4rem;
+    background-color: var(--color-prim);
+    border-radius: 1rem;
+    margin: 3rem 0;
+    text-align: center;
+    color: var(--g100);
+    transition: all 0.5s ease;
+    box-shadow: 5px 4px 11px 1px rgba(0, 0, 0, 0.42);
+    font-size: 25px;
+    font-weight: 700;
+}
 
-
-
-
-
-
-
-
-
-
-
+.final a:hover {
+    scale: 1.1;
+    background-color: var(--color-prim-dark);
+}
 
 
 /* --========== Footer==========-- */
+
+footer {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--color-prim);
+    width: 100vw;
+    color: var(--g100);
+
+}
+
+.footer-nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8%;
+    padding: 2rem 0;
+}
+
+footer div {
+    align-self: center;
+}
