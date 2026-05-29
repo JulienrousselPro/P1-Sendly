@@ -19,8 +19,6 @@
     --font-body: "Lato", "Helvetica Neue", Arial, sans-serif;
 }
 
-@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
-
 @font-face {
     font-family: "Lato";
     src: url("../fonts/Lato/Lato-Regular.woff2") format("woff2");
@@ -492,7 +490,6 @@ p.story-signature {
     justify-content: space-around;
     width: 100%;
     padding: 3rem;
-    /*flex-wrap: wrap;*/
     overflow-x: scroll;
     overflow-y: visible;
     z-index: 999;
@@ -505,7 +502,6 @@ p.story-signature {
 .pricecard {
     display: flex;
     flex-direction: column;
-    /*flex: 1;*/
     border: 0.2rem solid var(--color-sec);
     border-radius: 1.5rem;
     object-fit: cover;
@@ -709,9 +705,4 @@ footer {
 
 footer div {
     align-self: center;
-}
-
-
-html {
-    scroll-snap-type: y mandatory;
 }
