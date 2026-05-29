@@ -17,6 +17,8 @@
     /* --========== Fonts ==========-- */
     --font-title: "Futura", "Century Gothic", "Trebuchet MS", sans-serif;
     --font-body: "Lato", "Helvetica Neue", Arial, sans-serif;
+<<<<<<< HEAD
+=======
 }
 
 @import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
@@ -27,34 +29,67 @@
     font-weight: 400;
     font-style: normal;
     font-display: swap;
+>>>>>>> origin/main
 }
 
 @font-face {
     font-family: "Lato";
+<<<<<<< HEAD
+    src: url("../fonts/Lato/Lato-Regular.woff2") format("woff2");
+    font-weight: 400;
+    font-style: normal;
+=======
     src: url("../fonts/Lato/Lato-Italic.woff2") format("woff2");
     font-weight: 400;
     font-style: italic;
+>>>>>>> origin/main
     font-display: swap;
 }
 
 @font-face {
     font-family: "Lato";
+<<<<<<< HEAD
+    src: url("../fonts/Lato/Lato-Italic.woff2") format("woff2");
+    font-weight: 400;
+    font-style: italic;
+=======
     src: url("../fonts/Lato/Lato-Bold.woff2") format("woff2");
     font-weight: 700;
     font-style: normal;
+>>>>>>> origin/main
     font-display: swap;
 }
 
 @font-face {
+<<<<<<< HEAD
+    font-family: "Lato";
+    src: url("../fonts/Lato/Lato-Bold.woff2") format("woff2");
+    font-weight: 700;
+=======
     font-family: "Futura PT";
     src: url("../fonts/futura-pt/FuturaCyrillicBook.ttf") format("truetype");
     font-weight: 400;
+>>>>>>> origin/main
     font-style: normal;
     font-display: swap;
 }
 
 @font-face {
     font-family: "Futura PT";
+<<<<<<< HEAD
+    src: url("../fonts/futura-pt/FuturaCyrillicBook.ttf") format("truetype");
+    font-weight: 400;
+=======
+    src: url("../fonts/futura-pt/FuturaCyrillicDemi.ttf") format("truetype");
+    font-weight: 600;
+>>>>>>> origin/main
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Futura PT";
+<<<<<<< HEAD
     src: url("../fonts/futura-pt/FuturaCyrillicDemi.ttf") format("truetype");
     font-weight: 600;
     font-style: normal;
@@ -63,6 +98,8 @@
 
 @font-face {
     font-family: "Futura PT";
+=======
+>>>>>>> origin/main
     src: url("../fonts/futura-pt/FuturaCyrillicBold.ttf") format("truetype");
     font-weight: 700;
     font-style: normal;
@@ -77,11 +114,22 @@ body {
 }
 
 h2 {
+<<<<<<< HEAD
+=======
 
+>>>>>>> origin/main
     text-align: center;
     font-size: 3rem;
     margin: 3rem 0;
     color: var(--color-sec);
+<<<<<<< HEAD
+    margin-top: 100px;
+    margin-bottom: 40px;
+    font-size: 55px;
+    font-weight: 900;
+    text-shadow: rgba(141, 137, 137, 0.61) 1px 1px 1px;
+    text-transform: uppercase;
+=======
 
 }
 
@@ -93,6 +141,7 @@ h1 {
     margin: 3rem 0;
     color: var(--color-sec);
     
+>>>>>>> origin/main
 }
 
 /* --========== Header ==========-- */
@@ -114,6 +163,38 @@ nav {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+<<<<<<< HEAD
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    padding: 25px 40px 25px 0;
+    gap: 20px;
+}
+
+nav li {
+    font-size: 18px;
+    color: white;
+    font-weight: 900;
+}
+
+nav li:hover {
+    font-size: 18px;
+    color: #aaf4ff;
+}
+
+header img {
+    width: 260px;
+    padding: 10px 35px 20px 35px;
+}
+
+h1 {
+    text-align: left;
+    font-size: 3.5rem;
+    margin: 3rem 0;
+    color: var(--color-sec);
+=======
 }
 
     header nav {
@@ -155,6 +236,7 @@ nav {
     border: solid #5FC9DA;
     border-radius: 15px;
     padding: 10px;
+>>>>>>> origin/main
 }
 
 
@@ -169,6 +251,13 @@ nav {
 /* --========== 01 Hero ==========-- */
 
 .hero {
+<<<<<<< HEAD
+    background-image: url(../assets/img/desktop_hero.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right;
+    margin-top: 10px;
+=======
 
     
     background:
@@ -179,6 +268,7 @@ nav {
     background-repeat: no-repeat;
     min-height: calc(100vh - 72px);
         
+>>>>>>> origin/main
 }
 
     .hero p {
@@ -280,7 +370,7 @@ nav {
 
 /* --========== 02 Compare ==========-- */
 
-Main section div.another_logo {
+.another_logo {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
@@ -288,21 +378,21 @@ Main section div.another_logo {
     margin: 10rem 12rem 0 10rem;
 }
 
-main section div.another_logo h2.another {
+.another_logo h2 {
     color: var(--g900);
     font-size: 4rem;
     width: 30%;
     margin: 0;
 }
 
-main section div.another_logo p {
+.another_logo p {
     color: var(--g900);
     font-size: 4rem;
     font-family: var(--font-body);
     font-weight: 700;
 }
 
-main section div.another_logo img {
+.another_logo img {
     width: 15rem;
     filter: drop-shadow(4px 4px 10px var(--color-sec));
     transform: translateY(-8px)
@@ -328,20 +418,23 @@ main section div.another_logo img {
 
 }
 
+<<<<<<< HEAD
+.avant {
+=======
 .without article.avant {
+>>>>>>> origin/main
     -webkit-box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000, 2px -4px 10px -1px var(--g500);
     box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000, 2px -4px 10px -1px var(--g700);
 }
 
-.without article.avant ul {
+.avant ul {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(3, 1fr);
     gap: 2rem;
-
 }
 
-.without article.avant ul li {
+.avant ul li {
     display: flex;
     border-radius: 10%;
     border: 2px solid var(--g900);
@@ -357,12 +450,20 @@ main section div.another_logo img {
 
 }
 
+<<<<<<< HEAD
+.avant ul li.perte {
+=======
 .without article.avant ul li.perte {
+>>>>>>> origin/main
     grid-column-start: 1;
     grid-row-start: 2;
 }
 
+<<<<<<< HEAD
+.avant ul li.trop {
+=======
 .without article.avant ul li.trop {
+>>>>>>> origin/main
     grid-column-start: 2;
     grid-row-start: 2;
 }
@@ -600,7 +701,11 @@ p.story-signature {
 
 
 #prices {
+<<<<<<< HEAD
+    min-height: calc(100vh - 72px);
+=======
     height: auto;
+>>>>>>> origin/main
     width: 100vw;
     background-image: url(../assets/img/bgprices.jpg);
     min-height: 100vh;
@@ -621,7 +726,10 @@ p.story-signature {
     justify-content: space-around;
     width: 100%;
     padding: 3rem;
+<<<<<<< HEAD
+=======
     /*flex-wrap: wrap;*/
+>>>>>>> origin/main
     overflow-x: scroll;
     overflow-y: visible;
     z-index: 999;
@@ -634,7 +742,10 @@ p.story-signature {
 .pricecard {
     display: flex;
     flex-direction: column;
+<<<<<<< HEAD
+=======
     /*flex: 1;*/
+>>>>>>> origin/main
     border: 0.2rem solid var(--color-sec);
     border-radius: 1.5rem;
     object-fit: cover;
@@ -734,7 +845,7 @@ p.story-signature {
     display: flex;
     align-items: center;
     flex-direction: column;
-    height: auto;
+    min-height: calc(100vh - 72px);
 }
 
 .faq details {
@@ -764,6 +875,8 @@ p.story-signature {
     align-items: center;
     font-weight: 600;
     padding: 0.5rem;
+<<<<<<< HEAD
+=======
 }
 
 .faq-icon {
@@ -777,6 +890,7 @@ p.story-signature {
     color: var(--color-prim);
     font-size: 2rem;
     transition: transform 0.5s ease;
+>>>>>>> origin/main
 }
 
 .faq-icon {
@@ -811,6 +925,7 @@ p.story-signature {
     justify-content: center;
     align-items: center;
     height: auto;
+    background-image: url(../assets/img/Background_bleu_illustration_10.jpg);
 }
 
 .final p {
@@ -859,6 +974,8 @@ footer {
 
 footer div {
     align-self: center;
+<<<<<<< HEAD
+=======
 }
 
 .faq details {
@@ -874,4 +991,5 @@ footer div {
 /* --========== Footer==========-- */
 footer div {
     align-self: center;
+>>>>>>> origin/main
 }
