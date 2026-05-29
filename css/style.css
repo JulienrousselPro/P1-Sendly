@@ -160,13 +160,6 @@ header {
 /* --========== 01 Hero ==========-- */
 
 .hero {
-<<<<<<< HEAD
-    background-image: url(../assets/img/desktop_hero.png);
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: right;
-    margin-top: 10px;
-=======
 
     
     background:
@@ -177,7 +170,6 @@ header {
     background-repeat: no-repeat;
     min-height: calc(100vh - 72px);
         
->>>>>>> origin/main
 }
 
     .hero p {
@@ -327,11 +319,7 @@ header {
 
 }
 
-<<<<<<< HEAD
-.avant {
-=======
 .without article.avant {
->>>>>>> origin/main
     -webkit-box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000, 2px -4px 10px -1px var(--g500);
     box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000, 2px -4px 10px -1px var(--g700);
 }
@@ -359,20 +347,12 @@ header {
 
 }
 
-<<<<<<< HEAD
-.avant ul li.perte {
-=======
 .without article.avant ul li.perte {
->>>>>>> origin/main
     grid-column-start: 1;
     grid-row-start: 2;
 }
 
-<<<<<<< HEAD
-.avant ul li.trop {
-=======
 .without article.avant ul li.trop {
->>>>>>> origin/main
     grid-column-start: 2;
     grid-row-start: 2;
 }
@@ -610,11 +590,7 @@ p.story-signature {
 
 
 #prices {
-<<<<<<< HEAD
-    min-height: calc(100vh - 72px);
-=======
     height: auto;
->>>>>>> origin/main
     width: 100vw;
     background-image: url(../assets/img/bgprices.jpg);
     min-height: 100vh;
@@ -635,10 +611,7 @@ p.story-signature {
     justify-content: space-around;
     width: 100%;
     padding: 3rem;
-<<<<<<< HEAD
-=======
     /*flex-wrap: wrap;*/
->>>>>>> origin/main
     overflow-x: scroll;
     overflow-y: visible;
     z-index: 999;
@@ -651,10 +624,7 @@ p.story-signature {
 .pricecard {
     display: flex;
     flex-direction: column;
-<<<<<<< HEAD
-=======
     /*flex: 1;*/
->>>>>>> origin/main
     border: 0.2rem solid var(--color-sec);
     border-radius: 1.5rem;
     object-fit: cover;
@@ -784,8 +754,6 @@ p.story-signature {
     align-items: center;
     font-weight: 600;
     padding: 0.5rem;
-<<<<<<< HEAD
-=======
 }
 
 .faq-icon {
@@ -799,7 +767,6 @@ p.story-signature {
     color: var(--color-prim);
     font-size: 2rem;
     transition: transform 0.5s ease;
->>>>>>> origin/main
 }
 
 .faq-icon {
@@ -883,8 +850,6 @@ footer {
 
 footer div {
     align-self: center;
-<<<<<<< HEAD
-=======
 }
 
 .faq details {
@@ -900,5 +865,4 @@ footer div {
 /* --========== Footer==========-- */
 footer div {
     align-self: center;
->>>>>>> origin/main
 }
