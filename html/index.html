@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="Project Facture">
     <meta name="description" content="Application de facturation électronique pour les artisants">
-    <link rel="icon" href="../assets/logo/favicon.svg" type=image/svg>
+    <link rel="icon" href="../assets/logo/favicon.svg" type="image/svg+xml">
     <link rel="stylesheet" href="../css/reset.css">
     <link rel="stylesheet" href="../css/style.css">
     <title>Home | Sendly </title>
@@ -27,7 +27,7 @@
                 <li><a href="index.html#prices" alt="Tarifs">Tarifs</a></li>
                 <li><a href="index.html#about" alt="Histoire">Histoire</a></li>
                 <li><a href="index.html#faq" alt="FAQ">FAQ</a></li>
-                <li><a href="formulaire.html" class="header-btn">Essayer gratuitement</a></li>
+                <li><a href="formulaire.html" class="try-btn">Essayer gratuitement</a></li>
                 <li><a href="formulaire.html" class="header-btn">Se connecter</a></li>
             </ul>
         </nav>
@@ -43,41 +43,43 @@
 
             <!-- image a mettre sur le Hero en background image (css) -->
 
-            <p>Sendly, l'app intelligente des artisans du bâtiment.<br>
+            <p class="description">Sendly, l'app intelligente des artisans du bâtiment.<br>
                 Tu cliques, elle s'occupe du reste : <br>
                 devis, factures et conformité 2026.</p>
             <ul>
-                <li>
-                    <img src="#" alt="ok">
+                <li class="hero-li">
+                    <img src="../assets/icons/tick.svg" class="tick" alt="ok">
                     <p>Conforme à la facture électronique 2026</p>
                 </li>
-                <li>
-                    <img src="#" alt="ok">
+                <li class="hero-li">
+                    <img src="../assets/icons/tick.svg" class="tick" alt="ok">
                     <p>Devis et factures en quelques clics</p>
                 </li>
-                <li>
-                    <img src="" alt="ok">
+                <li class="hero-li">
+                    <img src="../assets/icons/tick.svg" class="tick" alt="ok">
                     <p>Pensé pour le terrain, pas pour les bureaux</p>
                 </li>
             </ul>
 
-            <a href="formulaire.html" class="hero-btn">Essayer maintenant!</a>
+            <div class="hero-btn">
 
-            <a href="#tarifs" class="hero-btn">Voir Tarifs</a>
+                <a href="formulaire.html" id="try-btn">Essayer maintenant!</a>
+
+                <a href="#tarifs" id="tarifs-btn">Voir Tarifs</a>
+
+            </div>
+
 
         </section>
 
 
         <!--========== 2 Without / With Sendly =========-->
 
-        <section> 
-            <div class="another_logo">
-                <h2 class="another">avant</h2>
-                <p>VS</p>
-                <img src="../assets/logo/logo_texte.svg" alt="Icon de la marque">
-            </div>
-            
-            <div class="without">     
+        <section class="comparate">
+            <h2 class="title-avant">Avant</h2>
+            <p class="title-vs">VS</p>
+            <img class="title-logo" src="../assets/logo/logo_texte.svg" alt="Icon de la marque">
+        
                 <article class="avant">
                     <ul>
                         <li>
@@ -98,35 +100,7 @@
                         <li class="perte">
                             <img src="../assets/icons/clock-alert.svg" alt="Icon clock-alert">
 
-                        <p>Tu passes tes soirées à rédiger tes devis : calculs, formulations, lignes interminables. Du
-                            temps pris sur ton vrai métier.
-                        </p>
-                    </li>
-                    <li>
-                        <img src="../assets/icons/folder-open-dot.svg" alt="Icon folder open">
-                        <h3>Trop de paperasse</h3>
-                        <p>
-                            Tu jongles entre Excel, WhatsApp et papiers volants pour retrouver tes devis, factures et
-                            chantiers.
-                        </p>
-                    </li>
-                    <li>
-                        <img src="../assets/icons/palette.svg" alt="Icon palette">
-                        <h3>Des devis qui font amateur</h3>
-                        <p>
-                            Tes documents ne reflètent pas la qualité de ton travail. Et ça joue sur la confiance que
-                            tes clients t'accordent.
-                        </p>
-                    </li>
-                    <li>
-                        <img src="../assets/icons/file-pen-line.svg" alt="Icon file and pen">
-                        <h3>Signatures compliquées</h3>
-                        <p>
-                            Faire signer un devis devient une corvée : mails, impressions, scans, relances..
-                        </p>
-                    </li>
-                </ul>
-            </article>
+                            <h3>Perte de temps</h3>
 
                             <p>Tu passes tes soirées à rédiger tes devis : calculs, formulations, lignes interminables.
                                 Du
@@ -167,7 +141,8 @@
                             <img src="../assets/icons/shield-check.svg" alt="Icon shield-check">
                             <h3>Conforme 2026</h3>
                             <p>
-                                Factur-X intégré, PDP agréée et e-reporting DGFiP. Tu seras prêt le jour J, sans rien faire
+                                Factur-X intégré, PDP agréée et e-reporting DGFiP. Tu seras prêt le jour J, sans rien
+                                faire
                                 de
                                 plus
                             </p>
@@ -183,7 +158,8 @@
                             <img src="../assets/icons/zap.svg" alt="Icon flash">
                             <h3>Devis en 5 minutes</h3>
                             <p>
-                                Plus de saisie à la main, plus de calculs à refaire. Tu cliques, tu valides, c'est prêt à
+                                Plus de saisie à la main, plus de calculs à refaire. Tu cliques, tu valides, c'est prêt
+                                à
                                 envoyer
                             </p>
                         </li>
@@ -199,7 +175,8 @@
                             <img src="../assets/icons/wand-sparkles.svg" alt="Icon wand sparkles">
                             <h3>PDF premium</h3>
                             <p>
-                                Tes documents avec ton logo, tes couleurs et ta charte. Du premier coup d'œil, ça inspire
+                                Tes documents avec ton logo, tes couleurs et ta charte. Du premier coup d'œil, ça
+                                inspire
                                 confiance.
                             </p>
                         </li>
@@ -207,12 +184,12 @@
                             <img src="../assets/icons/signature.svg" alt="Icon signature">
                             <h3>Signature express</h3>
                             <p>
-                                Ton client signe depuis son téléphone. Tu reçois la notification et tu génères la facture en
+                                Ton client signe depuis son téléphone. Tu reçois la notification et tu génères la
+                                facture en
                                 un clic.
                             </p>
                         </li>
                     </ul>
-                </div>
             </article>
         </section>
 
@@ -221,7 +198,7 @@
 
         <section id="demo">
 
-            <h2>Sendly en action</h2>
+            <h2>SENDLY EN ACTION</h2>
             <h3> - moins de 2 minutes</h3>
 
             <video src="../assets/videos/demo.mp4" controls autoplay muted poster="../assets/logo/logo_texte.svg">
@@ -234,63 +211,71 @@
         <section class="who">
 
             <h2>POUR TOUS LES ARTISANS</h2>
-                            <ul>
+            <ul>
                 <li>
                     <h3>Les métiers</h3>
                     <img src="../assets/img/metiers.png" alt="Image vectoriel de differents materieux d'artisan">
-                    
-                    <div class="sous-title"></div><p>Sendly est pensée pour les métiers des artisans dans le batiments</p>
+
+                    <div class="sous-title"></div>
+                    <p>Sendly est pensée pour les métiers des artisans dans le batiments</p>
                 </li>
 
                 <li>
                     <h3>Les statuts</h3>
-                    <img src="../assets/img/statut.png" alt="Image vectorielle de trois types de statut juridique">                 
+                    <img src="../assets/img/statut.png" alt="Image vectorielle de trois types de statut juridique">
                     <p>Auto-entrepreneur<br>Artisan solo<br>Petite entreprise<br>PME artisanale.</p>
                 </li>
 
                 <li>
-                     <h3>Les niveaux</h3>
+                    <h3>Les niveaux</h3>
                     <img src="../assets/img/niveaux.png"
                         alt="Image vectorielle de trois artisans de différents niveaux d'expérience">
                     <p>Du débutant fraîchement sorti d'école au senior avec 30 ans de chantier.</p>
                 </li>
             </ul>
             <a href="#" class="header-btn">Voir nos abonnements</a>
-      
+
         </section>
 
         <!--========== 5 About =========-->
-<section class="about">
-    <h2>NOTRE HISTOIRE</h2>
+        <section class="about">
+            <h2>NOTRE HISTOIRE</h2>
 
-    <div class="flip-card">
-        <div class="flip-inner">
-            <div class="flip-front">
-                <img src="../assets/img/photo_6.jpg" alt="photo de l'équipe fondatrice de Sendly">
+            <div class="flip-card">
+                <div class="flip-inner">
+                    <div class="flip-front">
+                        <img src="../assets/img/photo_6.jpg" alt="photo de l'équipe fondatrice de Sendly">
+                    </div>
+                    <div class="flip-back">
+                        <h3>
+                            <img src="../assets/logo/logo.svg" alt="logo de l'entreprise">
+                            est née sur les bancs d'une formation.
+                        </h3>
+                        <p>Tout a commencé à la <strong> Wild Code School</strong>. On était quatre, en pleine formation
+                            de développeurs web,
+                            avec un exercice en apparence simple : créer un site vitrine de A à Z. On voulait construire
+                            quelque
+                            chose de vrai. Quelque chose qui réponde à un vrai problème.</p>
+                        <p>En cherchant, on est tombés sur un sujet que personne ne traitait vraiment : les artisans du
+                            bâtiment et la paperasse. Des devis rédigés le soir à la main, des logiciels pensés pour des
+                            bureaux
+                            et pas pour le terrain, et surtout la réforme de <strong>la facture électronique
+                                2026</strong> qui arrivait, avec des
+                            milliers d'artisans sur le point de se retrouver perdus.</p>
+                        <p><span>Sendly</span> est née de là. Le nom dit tout ce qu'on voulait faire : send, envoyer —
+                            un devis, une
+                            facture, en un clic — et le -ly pour la simplicité, le truc qui se fait sans y penser.
+                            Quatre
+                            étudiants, une idée, et la conviction qu'une bonne techno doit rester simple. Sendly pense
+                            pratique
+                            avant de penser business.</p>
+                        <p class="story-signature">- L'équipe Sendly</p>
+                    </div>
+
+                </div>
             </div>
-            <div class="flip-back">            
-                <h3>
-                    <img src="../assets/logo/logo.svg" alt="logo de l'entreprise"> 
-                    est née sur les bancs d'une formation.
-                </h3>
-                <p>Tout a commencé à la <strong> Wild Code School</strong>. On était quatre, en pleine formation de développeurs web,
-                    avec un exercice en apparence simple : créer un site vitrine de A à Z. On voulait construire quelque
-                    chose de vrai. Quelque chose qui réponde à un vrai problème.</p>
-                <p>En cherchant, on est tombés sur un sujet que personne ne traitait vraiment : les artisans du
-                    bâtiment et la paperasse. Des devis rédigés le soir à la main, des logiciels pensés pour des bureaux
-                    et pas pour le terrain, et surtout la réforme de <strong>la facture électronique 2026</strong> qui arrivait, avec des
-                    milliers d'artisans sur le point de se retrouver perdus.</p>
-                <p><span>Sendly</span> est née de là. Le nom dit tout ce qu'on voulait faire : send, envoyer — un devis, une
-                    facture, en un clic — et le -ly pour la simplicité, le truc qui se fait sans y penser. Quatre
-                    étudiants, une idée, et la conviction qu'une bonne techno doit rester simple. Sendly pense pratique
-                    avant de penser business.</p>
-                <p class="story-signature">- L'équipe Sendly</p>
-            </div>
 
-        </div>
-    </div>
-
-</section>
+        </section>
 
 
         <!--========== 6 Pricing =========-->
@@ -302,7 +287,7 @@
             <div>
                 <article class="pricecard">
                     <h3>Gratuit</h3>
-                    <p>0€<span>/mois</span></p>
+                    <h4>0€<span>/mois</span></h4>
                     <ul>
                         <li><img src="../assets/icons/tick.png" alt="" width="14">1 utilisateur</li>
                         <li><img src="../assets/icons/tick.png" alt="" width="14">1 métier au choix</li>
@@ -317,7 +302,7 @@
 
                 <article class="pricecard">
                     <h3>PRO</h3>
-                    <p>19€<span>/mois</span></p>
+                    <h4>19€<span>/mois</span></h4>
                     <ul>
                         <li><img src="../assets/icons/tick.png" alt="" width="14">1 utilisateur</li>
                         <li><img src="../assets/icons/tick.png" alt="" width="14">Devis et factures illimités</li>
@@ -333,7 +318,7 @@
                 <article class="pricecard" id="premium">
                     <span class="badge"><img src="../assets/icons/crown.svg"></span>
                     <h3>Premium</h3>
-                    <p>49€<span>/mois</span></p>
+                    <h4>49€<span>/mois</span></h4>
                     <ul>
                         <li> <img src="../assets/icons/tick.png" alt="" width="14">jusqu'à 5 utilisateurs</li>
                         <li> <img src="../assets/icons/tick.png" alt="" width="14">Tout le plan PRO inclus</li>
@@ -349,7 +334,7 @@
 
                 <article class="pricecard">
                     <h3>Expert</h3>
-                    <p>99€<span>/mois</span></p>
+                    <h4>99€<span>/mois</span></h4>
                     <ul>
                         <li><img src="../assets/icons/tick.png" alt="" width="14">Utilisateurs illimités</li>
                         <li><img src="../assets/icons/tick.png" alt="" width="14">Tout le plan PREMIUM inclus</li>
@@ -483,7 +468,6 @@
             <p>Sendly &copy; 2026</p>
         </div>
     </footer>
-
 </body>
 
 </html>
