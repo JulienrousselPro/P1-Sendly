@@ -71,10 +71,6 @@
 /* --========== Body ==========-- */
 body {
   font-family: var(--font-body);
-<<<<<<< HEAD
-=======
-  
->>>>>>> main
 }
 
 h2 {
@@ -82,7 +78,6 @@ h2 {
   font-size: 3rem;
   margin: 3rem 0;
   color: var(--color-sec);
-
 }
 
 h1 {
@@ -92,20 +87,19 @@ h1 {
   font-weight: bold;
   margin: 3rem 0;
   color: var(--color-sec);
-
 }
 
 /* --========== Header ==========-- */
 
 header {
 
-    display: flex;
-    border: solid #5FC9DA;
-    border-radius: 10px;
-    max-width: 100vw;
-    text-align: right;
-    margin: 10px;
-    padding: 10px;
+  display: flex;
+  border: solid #5FC9DA;
+  border-radius: 10px;
+  max-width: 100vw;
+  text-align: right;
+  margin: 10px;
+  padding: 10px;
 }
 
 
@@ -117,7 +111,6 @@ header nav {
   justify-content: space-between;
   width: 100%;
   gap: 1rem;
-
 }
 
 header ul {
@@ -125,13 +118,11 @@ header ul {
   display: flex;
   align-items: center;
   gap: 0.75rem;
-
 }
 
 header.logo {
 
   display: block;
-
 }
 
 header.logo img {
@@ -139,7 +130,6 @@ header.logo img {
   height: 48px;
   width: auto;
   display: block;
-
 }
 
 .try-btn {
@@ -157,49 +147,38 @@ header.logo img {
   background-color: #5FC9DA;
   color: #605BA8;
   border: solid #605BA8;
-
 }
 
 /* --========== 01 Hero ==========-- */
 
 .hero {
-
-
-  background-image:url(../assets/img/desktop_hero.png);
+  background-image: url(../assets/img/desktop_hero.png);
   background-size: 50%;
   background-position: right top;
   padding-left: 50px;
   background-repeat: no-repeat;
   min-height: calc(100vh - 72px);
-
 }
 
 .hero p {
-
   font-size: 1.2rem;
   font-weight: bold;
-
 }
 
 .description {
-
   padding-left: 120px;
   padding-bottom: 50px;
-
 }
 
 .tick {
-
   fill-opacity: var(--color-prim);
 }
 
 .hero-li {
-
   display: flex;
   align-items: center;
   gap: 10px;
   padding-left: 120px;
-
 }
 
 .hero-li img {
@@ -209,18 +188,15 @@ header.logo img {
 }
 
 .hero-btn {
-
   display: flex;
   justify-content: center;
   gap: 20px;
   padding-top: 150px;
   padding-bottom: 50px;
   font-size: 1.2rem;
-
 }
 
 #tarifs-btn {
-
   border: 2px solid var(--color-prim);
   border-radius: 7.5px;
   padding: 2px 15px 2px 15px;
@@ -230,14 +206,11 @@ header.logo img {
 }
 
 #tarifs-btn:hover {
-
   transform: scale(1.08);
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
-
 }
 
 #try-btn {
-
   border: 2px solid var(--color-sec);
   background: #4D4990;
   background: -moz-linear-gradient(top, #4D4990 0%, #605BA8 50%, #3FB3C6 100%);
@@ -248,11 +221,9 @@ header.logo img {
   color: var(--color-sec);
   font-weight: 700;
   transition: transform 0.3s ease;
-
 }
 
 #try-btn:hover {
-
   border: 2px solid var(--color-prim);
   background: #3FB3C6;
   background: -moz-linear-gradient(top, #5FC9DA 0%, #3FB3C6 50%, #605BA8 100%);
@@ -263,12 +234,7 @@ header.logo img {
   color: var(--color-prim);
   font-weight: 700;
   transform: scale(1.1);
-
 }
-
-
-
-
 
 
 /* --========== 02 Compare ==========-- */
@@ -691,14 +657,14 @@ article.sendly ul li.endroit {
   font-size: 1.5rem;
 }
 
-.pricecard h3+p {
+.pricecard h4 {
   color: var(--g900);
   font-size: 2.5rem;
   font-weight: 700;
   margin-bottom: 1.5rem;
 }
 
-.pricecard h3+p span {
+.pricecard h4 span {
   font-size: 1.5rem;
   font-weight: 400;
   color: var(--g700);
@@ -750,9 +716,13 @@ article.sendly ul li.endroit {
   fill: var(--color-prim);
 }
 
-#premium a {
+#premium .btn {
   background-color: var(--color-prim);
-  color: var(--g300);
+  color: var(--g50);
+}
+
+#premium .btn:hover {
+  background-color: var(--color-prim-dark);
 }
 
 #premium:hover {
