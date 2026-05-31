@@ -238,153 +238,153 @@ header.logo img {
 
 
 /* --========== 02 Compare ==========-- */
-
-.another_logo {
-  display: flex;
-  align-items: center;
-  justify-content: space-evenly;
-  gap: 150px;
-  margin: 10rem 12rem 0 10rem;
+.comparate {
+  display: grid;
+  grid-template-columns: 45% max-content 45%;
+  grid-template-rows: auto minmax(max-content, 1fr);
+  max-width: 2000px;
+  margin: 0 auto 0 10px;
 }
 
-.another_logo h2 {
+.title-avant {
+  grid-column: 1;
+  justify-self: center;
+  align-items: center;
   color: var(--g900);
   font-size: 4rem;
-  width: 30%;
-  margin: 0;
+  margin-top: 9%;
+  margin-bottom: 10%;
 }
 
-.another_logo p {
+.title-vs {
+  grid-column: 2;
+  justify-self: center;
+  align-self: center;
   color: var(--g900);
   font-size: 4rem;
   font-family: var(--font-body);
   font-weight: 700;
+  margin-top: 9%;
+  margin-bottom: 10%;
 }
 
-.another_logo img {
+.title-logo {
+  grid-column: 3;
+  justify-self: center;
+  align-items: center;
   width: 15rem;
+  margin-top: 9%;
+  margin-bottom: 10%;
 }
 
-.without {
-  display: flex;
-  width: 100rem;
-  box-sizing: border-box;
-  gap: 20px;
-  width: 100vw;
-  max-width: 100%;
-}
-
-.without article {
-  flex: 1 1 0;
-  margin: 2rem;
-  background-color: var(--g100);
-  width: 50px;
-  border: 2px solid var(--g900);
-  border-radius: 5%;
-  padding: 40px;
-}
-
-.without article.avant {
-  -webkit-box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000, 2px -4px 10px -1px var(--g500);
-  box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000, 2px -4px 10px -1px var(--g700);
-}
-
-.avant ul {
+.comparate article ul {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(2, minmax(0, 1fr));
   grid-template-rows: repeat(3, 1fr);
   gap: 2rem;
+  padding: 8%;
+  list-style: none;
 }
 
-.avant ul li {
+.comparate article ul li {
   display: flex;
-  border-radius: 10%;
-  border: 2px solid var(--g900);
-  padding: 5%;
-  background-color: #FFFFFF;
-  height: 220px;
-  text-align: center;
-  text-align: center;
   flex-direction: column;
   align-items: center;
+  border-radius: 10%;
+  padding: 5%;
+  background-color: #FFFFFF;
+  min-height: 220px;
+  text-align: center;
+  box-sizing: border-box;
 }
 
-.without article.avant ul li.perte {
-  grid-column-start: 1;
-  grid-row-start: 2;
+.comparate article ul li p {
+  overflow-wrap: break-word;
+  word-break: break-word;
+  font-size: 1rem;
 }
 
-.without article.avant ul li.trop {
-  grid-column-start: 2;
-  grid-row-start: 2;
-}
-
-.without article.avant ul li.devis {
-  grid-column-start: 1;
-  grid-row-start: 3;
-}
-
-.without article.avant ul li.signature {
-  grid-column-start: 2;
-  grid-row-start: 3;
-}
-
-.without article.sendly {
-  flex: 1 1 0;
-  margin: 2rem;
+.comparate article.avant {
+  grid-column: 1;
   background-color: var(--g100);
-  width: 50px;
+  grid-row: 2 / span 2;
+  border: 2px solid var(--g900);
+  border-radius: 5%;
+  box-sizing: border-box;
+}
+
+.comparate article.avant ul li {
+  border: 2px solid var(--g900);
+}
+
+.comparate article.sendly {
+  grid-column: 3;
+  background-color: var(--g50);
   border: 4px solid var(--color-prim-dark);
   border-radius: 5%;
-  padding: 40px;
-  -webkit-box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000, 2px -4px 10px -1px var(--color-prim-dark);
-  box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000, 2px -4px 10px -1px var(--color-prim);
+  box-sizing: border-box;
 }
 
-.without article.sendly ul {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: repeat(3, 1fr);
-  gap: 2rem;
-}
-
-.without article.sendly ul li {
-  display: flex;
-  border-radius: 10%;
+.comparate article.sendly ul li {
   border: 4px solid var(--color-sec-dark);
-  padding: 5%;
-  background-color: #FFFFFF;
-  height: 220px;
-  text-align: center;
-  flex-direction: column;
-  align-items: center;
-  -webkit-box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000, 6px -1px 10px -1px var(--color-prim-dark);
-  box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000, 6px -1px 10px -1px var(--color-prim-dark);
+  box-shadow: -10px 0px 10px -7px var(--color-prim-dark),
+    10px 0px 10px -7px var(--color-prim-dark),
+    6px -1px 10px -1px var(--color-prim-dark);
 }
 
-.without article.sendly ul li.simple {
+.comparate article.sendly ul li img {
+  height: 20%;
+}
+
+.comparate article.sendly ul li h3 {
+  color: var(--color-prim-dark);
+}
+
+.comparate article.avant ul li.perte {
+  grid-column-start: 1;
+  grid-row-start: 2;
+}
+
+.comparate article.avant ul li.trop {
+  grid-column-start: 2;
+  grid-row-start: 2;
+}
+
+.comparate article.avant ul li.devis {
+  grid-column-start: 1;
+  grid-row-start: 3;
+}
+
+.comparate article.avant ul li.signature {
+  grid-column-start: 2;
+  grid-row-start: 3;
+}
+
+.comparate article.sendly ul li.simple {
   grid-column-start: 2;
   grid-row-start: 1;
 }
 
-.without article.sendly ul li.devis5 {
+.comparate article.sendly ul li.devis5 {
   grid-column-start: 2;
   grid-row-start: 2;
 }
 
-article.sendly ul li.endroit {
+.comparate article.sendly ul li.endroit {
   grid-column-start: 1;
   grid-row-start: 2;
 }
 
-.without article.sendly ul li.pdf {
-  grid-column-start: 2;
+.comparate article.sendly ul li.pdf {
+  grid-column-start: 1;
   grid-row-start: 3;
 }
 
 /* --========== 03 Demo ==========-- */
 #demo {
   background-image: url("../assets/img/testt.png");
+  margin-top: 4rem;
+  padding: 5rem;
 }
 
 
@@ -396,7 +396,7 @@ article.sendly ul li.endroit {
   text-align: center;
   font-size: var(--font-body);
   color: var(--color-prim-dark);
-  margin-bottom: 5%;
+  margin-bottom: 3rem;
 }
 
 #demo video {
@@ -405,6 +405,7 @@ article.sendly ul li.endroit {
   margin-right: auto;
   width: 60%;
   max-width: 800px;
+  border: 2px solid var(--color-sec-dark)
 }
 
 /* --========== 04 Who it's for ==========-- */
