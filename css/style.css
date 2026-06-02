@@ -76,8 +76,19 @@
 }
 
 /* --========== Body ==========-- */
+/* html {
+  scroll-snap-type: y mandatory;
+}
+
+section {
+  scroll-snap-align: start;
+}
+ */
+
+
 body {
   font-family: var(--font-body);
+  font-weight: bold;
 }
 
 h2 {
@@ -165,6 +176,7 @@ header ul {
   max-height: calc(100vh - 122px);
   overflow: hidden;
 }
+
 /* background */
 
 .hero::before {
@@ -271,6 +283,7 @@ header ul {
   align-items: center;
   place-content: center;
   margin-top: 10%;
+  height: 100vh;
 }
 
 .title-avant {
@@ -412,6 +425,7 @@ header ul {
   background-image: url("../assets/img/testt.png");
   margin-top: 4rem;
   padding: 5rem;
+  height: 100vh;
 }
 
 
@@ -530,7 +544,7 @@ header ul {
 /* --========== 05 ABOUT ==========-- */
 
 .about {
-  min-height: calc(100vh - 72px);
+  height: 100vh;
   padding: 50px 0;
   display: flex;
   flex-direction: column;
@@ -729,6 +743,7 @@ header ul {
     border: 0.3rem solid var(--color-prim);
     box-shadow: 0 10px 35px rgba(124, 58, 178, 0.18);
     position: relative;
+    font-weight: bold;
 
     &:hover {
       background-color: #c5ebf1;
