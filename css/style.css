@@ -630,133 +630,132 @@ header ul {
   min-height: calc(100vh - 72px);
   width: 100vw;
   background-image: url(../assets/img/bgprices.jpg);
-  min-height: 100vh;
   overflow-x: hidden;
-}
 
-#prices h2 {
-  margin-bottom: 1rem;
-}
+  h2 {
+    margin-bottom: 1rem;
+  }
 
-#prices h2+p {
-  text-align: center;
-  margin-bottom: 3rem;
-  font-size: 25px;
-}
+  h2+p {
+    text-align: center;
+    margin-bottom: 3rem;
+    font-size: 25px;
+  }
 
-#prices div {
-  display: flex;
-  justify-content: space-around;
-  width: 100%;
-  padding: 3rem;
-  overflow-x: scroll;
-  scrollbar-width: none;
-  overflow-y: visible;
-  z-index: 999;
-  min-height: 650px;
-  height: auto;
-  align-items: center;
-  gap: 2rem;
-}
+  div {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    padding: 3rem;
+    overflow-x: scroll;
+    scrollbar-width: none;
+    overflow-y: visible;
+    z-index: 999;
+    min-height: 650px;
+    height: auto;
+    align-items: center;
+    gap: 2rem;
+  }
 
-.pricecard {
-  display: flex;
-  flex-direction: column;
-  border: 0.2rem solid var(--color-sec);
-  border-radius: 1.5rem;
-  object-fit: cover;
-  padding: 2rem 1.5rem;
-  width: 20%;
-  min-width: 300px;
-  height: 500px;
-  text-align: center;
-  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.06);
-  transition: all 0.6s ease;
-  background-color: var(--g50);
-}
+  .pricecard {
+    display: flex;
+    flex-direction: column;
+    border: 0.2rem solid var(--color-sec);
+    border-radius: 1.5rem;
+    object-fit: cover;
+    padding: 2rem 1.5rem;
+    width: 20%;
+    min-width: 300px;
+    height: 500px;
+    text-align: center;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.06);
+    transition: all 0.6s ease;
+    background-color: var(--g50);
 
-.pricecard:hover {
-  scale: 1.12;
-  background-color: #d2cff7d5;
-}
+    &:hover {
+      scale: 1.12;
+      background-color: #d2cff7d5;
+    }
 
-.pricecard h3 {
-  color: var(--color-prim);
-  font-size: 1.5rem;
-}
+    h3 {
+      color: var(--color-prim);
+      font-size: 1.5rem;
+    }
 
-.pricecard h4 {
-  color: var(--g900);
-  font-size: 2.5rem;
-  font-weight: 700;
-  margin-bottom: 1.5rem;
-}
+    h4 {
+      color: var(--g900);
+      font-size: 2.5rem;
+      font-weight: 700;
+      margin-bottom: 1.5rem;
 
-.pricecard h4 span {
-  font-size: 1.5rem;
-  font-weight: 400;
-  color: var(--g700);
-}
+      span {
+        font-size: 1.5rem;
+        font-weight: 400;
+        color: var(--g700);
+      }
+    }
 
-.pricecard ul {
-  border-top: 1px solid #eee;
-  padding-top: 1.2rem;
-  margin-top: 0.5rem;
-}
+    ul {
+      border-top: 1px solid #eee;
+      padding-top: 1.2rem;
+      margin-top: 0.5rem;
+    }
 
-.pricecard li {
-  display: flex;
-  align-items: center;
-  gap: 0.2rem;
-}
+    li {
+      display: flex;
+      align-items: center;
+      gap: 0.2rem;
+    }
 
-.btn {
-  display: flex;
-  align-self: center;
-  padding: 0.2rem 4rem;
-  background-color: var(--color-sec);
-  border-radius: 1rem;
-  margin: 1.5rem 0;
-  text-align: center;
-  color: var(--g900);
-  transition: all 0.5s ease;
-}
 
-.btn:hover {
-  scale: 1.2;
-  background-color: var(--color-sec-dark);
-}
+    .btn {
+      display: flex;
+      align-self: center;
+      padding: 0.2rem 4rem;
+      background-color: var(--color-sec);
+      border-radius: 1rem;
+      margin: 1.5rem 0;
+      text-align: center;
+      color: var(--g900);
+      transition: all 0.5s ease;
 
-#premium {
-  border: 0.3rem solid var(--color-prim);
-  box-shadow: 0 10px 35px rgba(124, 58, 178, 0.18);
-  position: relative;
-}
+      &:hover {
+        scale: 1.2;
+        background-color: var(--color-sec-dark);
+      }
+    }
+  }
 
-.badge {
-  position: absolute;
-  top: -1.7rem;
-  left: 70%;
-  padding: 0.3rem 1rem;
-  border-radius: 9999px;
-  width: 5rem;
-  transform: rotate(10deg);
-  fill: var(--color-prim);
-}
+  #premium {
+    border: 0.3rem solid var(--color-prim);
+    box-shadow: 0 10px 35px rgba(124, 58, 178, 0.18);
+    position: relative;
 
-#premium .btn {
-  background-color: var(--color-prim);
-  color: var(--g50);
-}
+    &:hover {
+      background-color: #c5ebf1;
+    }
 
-#premium .btn:hover {
-  background-color: var(--color-prim-dark);
-}
+    .badge {
+      position: absolute;
+      top: -1.7rem;
+      left: 70%;
+      padding: 0.3rem 1rem;
+      border-radius: 9999px;
+      width: 5rem;
+      transform: rotate(10deg);
+    }
 
-#premium:hover {
-  background-color: #c5ebf1;
-}
+    .btn {
+      background-color: var(--color-prim);
+      color: var(--g50);
 
+
+      &:hover {
+        background-color: var(--color-prim-dark);
+      }
+    }
+  }
+}
 
 /* --========== 07 FAQ ==========-- */
 
@@ -766,70 +765,48 @@ header ul {
   align-items: center;
   flex-direction: column;
   min-height: calc(100vh - 72px);
-}
 
-.faq details {
-  border-bottom: 1px solid #e5e7eb;
-  padding: 1rem;
-  border: 2px solid var(--color-prim);
-  border-radius: 1rem;
-  margin: 0.3rem 5rem;
-  box-shadow: 6px 6px 15px 2px rgba(0, 0, 0, 0.17);
-  width: 50%;
+  details {
+    border-bottom: 1px solid #e5e7eb;
+    padding: 1rem;
+    border: 2px solid var(--color-prim);
+    border-radius: 1rem;
+    margin: 0.3rem 5rem;
+    box-shadow: 6px 6px 15px 2px rgba(0, 0, 0, 0.17);
+    width: 50%;
+  }
 
-}
+  details[open] .faq-icon {
+    transform: rotate(45deg);
+  }
 
-/* --========== 08 Final ==========-- */
-.faq {
-  display: flex;
-  align-items: center;
-  flex-direction: column;
+  summary {
+    list-style: none;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 600;
+    padding: 0.5rem;
+  }
 
-}
+  .faq-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    border: 2px solid var(--color-prim);
+    color: var(--color-prim);
+    font-size: 2rem;
+    transition: transform 0.5s ease;
 
-.faq summary {
-  list-style: none;
-  cursor: pointer;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  font-weight: 600;
-  padding: 0.5rem;
-}
-
-.faq-icon {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 2rem;
-  height: 2rem;
-  border-radius: 50%;
-  border: 2px solid var(--color-prim);
-  color: var(--color-prim);
-  font-size: 2rem;
-  transition: transform 0.5s ease;
-}
-
-.faq-icon {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 2rem;
-  height: 2rem;
-  border-radius: 50%;
-  border: 2px solid var(--color-prim);
-  color: var(--color-prim);
-  font-size: 2rem;
-  transition: transform 0.5s ease;
-}
-
-.faq-icon img {
-  width: 0.8rem;
-  height: auto;
-}
-
-.faq details[open] .faq-icon {
-  transform: rotate(45deg);
+    img {
+      width: 0.8rem;
+      height: auto;
+    }
+  }
 }
 
 
@@ -841,32 +818,39 @@ header ul {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: auto;
+  height: 100vh;
   background-image: url(../assets/img/Background_bleu_illustration_10.jpg);
-}
+  background-size: cover;
+  background-position: bottom right;
+  width: 100vw;
 
-.final p {
-  font-size: 32px;
-}
+  h2 {
+    color: var(--color-prim)
+  }
 
-.final a {
-  display: flex;
-  align-self: center;
-  padding: 1.3rem 4rem;
-  background-color: var(--color-prim);
-  border-radius: 1rem;
-  margin: 3rem 0;
-  text-align: center;
-  color: var(--g100);
-  transition: all 0.5s ease;
-  box-shadow: 5px 4px 11px 1px rgba(0, 0, 0, 0.42);
-  font-size: 25px;
-  font-weight: 700;
-}
+  p {
+    font-size: 32px;
+  }
 
-.final a:hover {
-  scale: 1.1;
-  background-color: var(--color-prim-dark);
+  a {
+    display: flex;
+    align-self: center;
+    padding: 1.3rem 1rem;
+    background-color: var(--color-prim);
+    border-radius: 1rem;
+    margin: 8rem 0 0 0;
+    text-align: center;
+    color: var(--g100);
+    transition: all 0.5s ease;
+    box-shadow: 5px 4px 11px 1px rgba(0, 0, 0, 0.42);
+    font-size: 25px;
+    font-weight: 700;
+
+    &:hover {
+      scale: 1.1;
+      background-color: var(--color-prim-dark);
+    }
+  }
 }
 
 
@@ -879,16 +863,17 @@ footer {
   width: 100vw;
   color: var(--g100);
 
-}
 
-.footer-nav {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 8%;
-  padding: 2rem 0;
-}
 
-footer div {
-  align-self: center;
+  .footer-nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8%;
+    padding: 2rem 0;
+  }
+
+  div {
+    align-self: center;
+  }
 }
