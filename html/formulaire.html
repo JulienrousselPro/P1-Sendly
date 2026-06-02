@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -15,61 +16,40 @@
 <body>
 
     <header>
-
         <nav>
-
             <a href="index.html" class="logo">
-                <img src="../assets/logo/logo.svg" alt="logo de l'entreprise">
-            </a>
-
-            <a href="index.html" class="header-btn">Accueil</a>
-
+                <img src="../assets/logo/logowhite.svg" alt="logo de l'entreprise" width="300" height="82"></a>
+            <a href="index.html">Accueil</a>
         </nav>
-
     </header>
 
-</body>
+    <section>
+        <h1>Crée ton compte</h1>
+        <h2>Gratuit pendant 14 jours, sans carte bancaire!</h2>
+    </section>
 
-<hero>
+    <div>
+        <a href="#" class="google-id"></a>
+        <a href="#" class="apple-id"></a>
+    </div>
 
-    <img src="../assets/logo/logo.svg">
+    <div>
+        <form class="form">
+            <label for="username">Nom d'utilisateur:</label>
+            <input type="text" id="username" name="username" required="">
 
-    <h1>Crée ton compte</h1>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required="">
 
-    <p>Gratuit pendant 14 jours, sans carte bancaire!</p>
+            <label for="password">Mot de passe:</label>
+            <input type="password" id="password" name="password" required="">
 
-</hero>
+            <button type="submit">Valider l'inscription</button>
+        </form>
+    </div>
 
-<section>
-
-    <a href="#" class="google-id"></a>
-    <a href="#" class="apple-id"></a>
-
-</section>
-
-<section>
-
-    <form class="form">
-
-        <label for="username">Nom d'utilisateur:</label>
-        <input type="text" id="username" name="username" required="">
-
-        <label for="email">Email:</label>
-        <input type="email" id="email" name="email" required="">
-
-        <label for="password">Mot de passe:</label>
-        <input type="password" id="password" name="password" required="">
-
-        <button type="submit">Valider l'inscription</button>
-
-    </form>
-
-</section>
-
-<footer>
-
-    <section class="footer-nav">
-
+    <footer>
+        <div class="footer-nav">
             <article class="footer-card">
                 <h3>Produit</h3>
                 <ul>
@@ -109,13 +89,11 @@
                     <li><a href="#">RGPD</a></li>
                 </ul>
             </article>
-
-        </section>
-        
-        <div>
+        </div>
+        <div id="copy">
             <p>Sendly &copy; 2026</p>
         </div>
-
-</footer>
+    </footer>
+</body>
 
 </html>
