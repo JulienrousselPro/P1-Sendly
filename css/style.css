@@ -283,14 +283,16 @@ header ul {
 
 /* --========== 02 Compare ==========-- */
 .comparate {
+  background-image: url("../assets/img/testt.png");
+  background-size: cover;
+  width: 100vw;
   display: grid;
   grid-template-columns: 45% max-content 45%;
   grid-template-rows: auto minmax(max-content, 1fr);
-  max-width: 2000px;
-  margin: 0 5% 10% 5%;
+  max-width: 2000px; 
   align-items: stretch;
   place-content: center;
-  padding: 5%;
+  padding: 5% 10% 5% 10%;
 }
 
 .title-avant {
@@ -429,8 +431,7 @@ header ul {
 #demo {
   background-image: url("../assets/img/testt.png");
   margin-top: 4rem;
-  padding: 5rem;
-  height: 100vh;
+  padding: 10rem;
 }
 
 
@@ -447,11 +448,12 @@ header ul {
 
 #demo video {
   display: block;
+  margin: 0 auto 10% auto;
   margin-left: auto;
   margin-right: auto;
   width: 60%;
   max-width: 800px;
-  border: 2px solid var(--color-sec-dark)
+  border: 2px solid var(--color-sec-dark);
 }
 
 /* --========== 04 Who it's for ==========-- */
