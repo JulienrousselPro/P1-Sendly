@@ -171,7 +171,7 @@ header ul {
   content: "";
   position: absolute;
   inset: 0;
-  
+
   background-image: url("../assets/img/desktop_hero.png");
   background-size: 50%;
   background-position: right top;
@@ -213,9 +213,10 @@ header ul {
   display: flex;
   justify-content: center;
   gap: 20px;
-  padding-top: 150px;
+  padding-top: 200px;
   padding-bottom: 50px;
   font-size: 1.2rem;
+  z-index: +1;
 }
 
 #tarifs-btn {
@@ -223,6 +224,7 @@ header ul {
   border-radius: 7.5px;
   padding: 2px 15px 2px 15px;
   color: var(--color-prim);
+  background-color: #FFFFFF;
   font-weight: 700;
   transition: transform 0.25s ease, box-shadow 0.25s ease;
 }
