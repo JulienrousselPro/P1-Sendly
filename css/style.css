@@ -101,10 +101,11 @@ h2 {
 h1 {
 
   text-align: left;
-  font-size: 3.5rem;
+  font-size: 4rem;
   font-weight: bold;
   margin: 3rem 0;
   color: var(--color-sec);
+  padding-left: 20px;
 }
 
 /* --========== Header ==========-- */
@@ -131,6 +132,7 @@ header nav {
 
 header ul {
 
+  font-size: 1.5rem;
   display: flex;
   align-items: center;
   gap: 0.75rem;
@@ -172,7 +174,6 @@ header ul {
 
 .hero {
   position: relative;
-  padding-left: 50px;
   max-height: calc(100vh - 122px);
   overflow: hidden;
 }
@@ -185,17 +186,17 @@ header ul {
   inset: 0;
 
   background-image: url("../assets/img/desktop_hero.png");
-  background-size: 50%;
-  background-position: right top;
+  background-size: 35%;
+  background-position: right;
   background-repeat: no-repeat;
-
+  
   z-index: -1;
 
   transition: filter 0.3s ease;
 }
 
 .hero p {
-  font-size: 1.2rem;
+  font-size: 1.5rem;
   font-weight: bold;
 }
 
@@ -225,8 +226,8 @@ header ul {
   display: flex;
   justify-content: center;
   gap: 20px;
-  padding-top: 200px;
-  padding-bottom: 50px;
+  padding-top: 5rem;
+  padding-bottom: 3rem;
   font-size: 1.2rem;
   z-index: +1;
 }
@@ -275,7 +276,7 @@ header ul {
 .separator {
   height: 4px;
   width: 80%;
-  margin: 50px auto;
+  /* margin: 50px auto; */
   background: linear-gradient(to right, transparent, #605BA8, transparent);
   border-radius: 999px;
 }
