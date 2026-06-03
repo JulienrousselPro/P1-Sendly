@@ -9,6 +9,7 @@
     background-size: cover;
     background-position: bottom right;
     width: 100vw;
+    height: 80vh;
 
     h2 {
         color: var(--color-prim);

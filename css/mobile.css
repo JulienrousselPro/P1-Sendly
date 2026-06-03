@@ -1,6 +1,0 @@
-@media (max-width: 768px) {
-  .hero::before {
-    filter: blur(8px);
-    transform: scale(1.1);
-  }
-}
