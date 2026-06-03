@@ -1,0 +1,17 @@
+:root {
+    /* --========== Basics ==========-- */
+    --color-prim: #605ba8;
+    --color-prim-dark: #4d4990;
+    --color-sec: #5fc9da;
+    --color-sec-dark: #3fb3c6;
+
+    /* --========== Shades of grey ==========--*/
+    --g900: #1c1e26;
+    --g700: #3a3d4a;
+    --g500: #6b6f7e;
+    --g300: #b4b7c2;
+    --g100: #e6e7ec;
+    --g50: #f6f7f9;
+    --white: #ffffff;
+
+}
