@@ -111,7 +111,7 @@
 .separator {
     height: 4px;
     width: 80%;
-    /* margin: 50px auto; */
+    margin: 50px auto; 
     background: linear-gradient(to right, transparent, #605ba8, transparent);
     border-radius: 999px;
 }
