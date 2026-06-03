@@ -7,7 +7,7 @@ body {
         text-align: center;
         font-size: 3rem;
         margin: 3rem 0;
-        color: var(--color-sec);
+        color: var(--color-prim);
     }
 
     h1 {
@@ -15,7 +15,7 @@ body {
         font-size: 4rem;
         font-weight: bold;
         margin: 3rem 0;
-        color: var(--color-sec);
+        color: var(--color-prim);
         padding-left: 20px;
     }
 

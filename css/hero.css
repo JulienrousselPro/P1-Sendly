@@ -115,3 +115,11 @@
     background: linear-gradient(to right, transparent, #605ba8, transparent);
     border-radius: 999px;
 }
+
+
+@media (max-width: 768px) {
+    .hero::before {
+        filter: blur(8px);
+        transform: scale(1.1);
+    }
+}
