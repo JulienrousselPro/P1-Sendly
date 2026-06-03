@@ -1,0 +1,41 @@
+.final {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    background:
+        linear-gradient(to bottom, white 0%, transparent 15%),
+        url("../assets/img/Background_bleu_illustration_10.jpg");
+    background-size: cover;
+    background-position: bottom right;
+    width: 100vw;
+
+    h2 {
+        color: var(--color-prim);
+    }
+
+    p {
+        font-size: 32px;
+    }
+
+    a {
+        display: flex;
+        align-self: center;
+        padding: 1.3rem 1rem;
+        background-color: var(--color-prim);
+        border-radius: 1rem;
+        margin: 8rem 0 0 0;
+        text-align: center;
+        color: var(--g100);
+        transition: all 0.5s ease;
+        box-shadow: 5px 4px 11px 1px rgba(0, 0, 0, 0.42);
+        font-size: 25px;
+        font-weight: 700;
+
+        &:hover {
+            scale: 1.1;
+            background-color: var(--color-prim-dark);
+        }
+    }
+}
