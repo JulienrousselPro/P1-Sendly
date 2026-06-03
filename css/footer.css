@@ -1,0 +1,21 @@
+footer {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--color-prim);
+    width: 100vw;
+    color: var(--g100);
+    height: 21vh;
+
+    .footer-nav {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 8%;
+        padding: 2rem 0;
+    }
+
+    #copy {
+        width: 100%;
+        text-align: center;
+    }
+}
