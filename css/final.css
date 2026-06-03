@@ -3,7 +3,6 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 80vh;
     background:
         linear-gradient(to bottom, white 0%, transparent 15%),
         url("../assets/img/Background_bleu_illustration_10.jpg");
