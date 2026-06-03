@@ -292,7 +292,7 @@ header ul {
   display: grid;
   grid-template-columns: 45% max-content 45%;
   grid-template-rows: auto minmax(max-content, 1fr);
-  max-width: 2000px;
+
   align-items: stretch;
   place-content: center;
   padding: 5% 10% 5% 10%;
