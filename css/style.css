@@ -295,12 +295,7 @@ header ul {
   max-width: 2000px; 
   align-items: stretch;
   place-content: center;
-<<<<<<< HEAD
-  padding-left: 5%;
-  margin-top: 10%;
-=======
   padding: 5% 10% 5% 10%;
->>>>>>> origin/main
 }
 
 .title-avant {
