@@ -8,92 +8,58 @@
     <meta name="description" content="Application de facturation électronique pour les artisants">
     <link rel="icon" href="../assets/logo/favicon.svg" type=image/svg>
     <link rel="stylesheet" href="../css/reset.css">
-    <link rel="stylesheet" href="../css/style.css">
-    <title>Connexion | Inscription</title>
+    <link rel="stylesheet" href="../css/formulaire.css">
+    <title>Inscription | Sendly</title>
 
 </head>
 
 <body>
-
-    <header>
-        <nav>
-            <a href="index.html" class="logo">
-                <img src="../assets/logo/logowhite.svg" alt="logo de l'entreprise" width="300" height="82"></a>
-            <a href="index.html">Accueil</a>
-        </nav>
-    </header>
-
-    <section>
-        <h1>Crée ton compte</h1>
+<main>
+    <a href="index.html" class="logo">
+    <img src="../assets/logo/logo_texte.svg" alt="logo de l'entreprise">
+    </a>
+    <section id="form">
+        <h1>Crée un compte gratuit</h1>
         <h2>Gratuit pendant 14 jours, sans carte bancaire!</h2>
+        
+ <div>
+    <form class="form">
+    <button class="btn-connexion google-id" type="button">
+    <img src="../assets/icons/google.svg" alt="icone de google">
+    Crée mon compte avec Google
+    </button>
+
+<button class="btn-connexion apple-id" type="button">
+  <img src="../assets/icons/apple.svg" alt="icone de appel">
+  Crée mon compte avec Apple
+</button>
+        <p class="connexion"> <span>Ou</span></p>
+        
+        <label class="promt2" for="username">Nom d'utilisateur</label>
+        <input type="text" id="username" placeholder="Nom d'utilisateur" name="username" required>
+
+        <label class="promt2" for="email">Email</label>
+        <input type="email" id="email" placeholder="Email" name="email" required>
+
+        <label class="promt2" for="password">Mot de passe</label>
+        <input type="password" id="password" placeholder="Mot de passe" name="password" required>
+        <p class="password-min">Veuillez saisir un mot de passe avec <br>8 caractères minimum - 1 caractère spécial - 1 chiffre</p>
+
+        <label class="promt2" for="password2">Confirmer le mot de passe</label>
+        <input type="password" id="password2" placeholder="Confirmer le mot de passe" name="password2" required>
+
+        <label class="choice">
+            <input type="checkbox" name="newsletter" checked> Je souhaite recevoir les newsletter de Sendly par email
+        </label>
+        <label class="choice">
+            <input type="checkbox" name="cgu"> J'ai lu et j'accepte <a href="#">les conditions générales.</a>
+        </label>
+
+        <button class="btn-submit" type="submit" >Créer un compte</button>
+    </form>
+    </div>
     </section>
-
-    <div>
-        <a href="#" class="google-id"></a>
-        <a href="#" class="apple-id"></a>
-    </div>
-
-    <div>
-        <form class="form">
-            <label for="username">Nom d'utilisateur:</label>
-            <input type="text" id="username" name="username" required="">
-
-            <label for="email">Email:</label>
-            <input type="email" id="email" name="email" required="">
-
-            <label for="password">Mot de passe:</label>
-            <input type="password" id="password" name="password" required="">
-
-            <button type="submit">Valider l'inscription</button>
-        </form>
-    </div>
-
-    <footer>
-        <div class="footer-nav">
-            <article class="footer-card">
-                <h3>Produit</h3>
-                <ul>
-                    <li><a href="index.html#demo">Démo</a></li>
-                    <li><a href="index.html#prices">Tarifs</a></li>
-                    <li><a href="index.html#about">Histoire</a></li>
-                    <li><a href=index.html#faq>FAQ</a></li>
-                </ul>
-            </article>
-
-            <article class="footer-card">
-                <h3>Ressources</h3>
-                <ul>
-                    <li><a href="#">Guide Factur-X 2026</a></li>
-                    <li><a href="#">Blog</a></li>
-                    <li><a href="#">Aide</a></li>
-                    <li><a href="#">Tutoriels</a></li>
-                </ul>
-            </article>
-
-            <article class="footer-card">
-                <h3>Entreprise</h3>
-                <ul>
-                    <li><a href="#">À propos</a></li>
-                    <li><a href="#">Contact</a></li>
-                    <li><a href="#">Recrutement</a></li>
-                    <li><a href="#">Presse</a></li>
-                </ul>
-            </article>
-
-            <article class="footer-card">
-                <h3>Légal</h3>
-                <ul>
-                    <li><a href="#">CGU</a></li>
-                    <li><a href="#">Mentions légales</a></li>
-                    <li><a href="#">Politique de confidentialité</a></li>
-                    <li><a href="#">RGPD</a></li>
-                </ul>
-            </article>
-        </div>
-        <div id="copy">
-            <p>Sendly &copy; 2026</p>
-        </div>
-    </footer>
+    </main>
 </body>
 
 </html>
