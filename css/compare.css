@@ -1,11 +1,9 @@
 .comparate {
     background-image: url("../assets/img/testt.png");
     background-size: cover;
-    width: 100vw;
     display: grid;
     grid-template-columns: 45% max-content 45%;
     grid-template-rows: auto minmax(max-content, 1fr);
-    max-width: 2000px;
     align-items: stretch;
     place-content: center;
     padding: 5% 10% 5% 10%;
@@ -44,6 +42,7 @@
     gap: 2rem;
     padding: 8%;
     list-style: none;
+    min-height: 130;
 }
 
 .comparate article ul li {
@@ -53,11 +52,11 @@
     border-radius: 1rem;
     padding: 5%;
     background-color: #ffffff;
-    min-height: 150px;
+    min-height: 11rem;
     text-align: center;
     overflow-wrap: break-word;
     word-break: break-word;
-    font-size: 0.8rem;
+    font-size: 1rem;
 }
 
 .comparate article ul li img {
@@ -65,7 +64,7 @@
 }
 
 .comparate article ul li p {
-    font-size: 0.7rem;
+    font-size: 0.8rem;
 }
 
 .comparate article.avant {
@@ -148,4 +147,78 @@
 .comparate article.sendly ul li.pdf {
     grid-column-start: 1;
     grid-row-start: 3;
+}
+
+@media (max-width: 768px) {
+  .comparate {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto auto auto auto;
+    padding: 10% 5%;
+    margin-top: 5%;
+    gap: 1.5rem; 
+  }
+
+  .title-avant {
+    grid-column: 1;
+    grid-row: 1;
+    font-size: 2.5rem; 
+  }
+
+  .title-vs {
+    grid-column: 1;
+    grid-row: 3;
+    font-size: 2rem;
+    margin: 0.5rem 0;
+  }
+
+  .title-logo {
+    grid-column: 1;
+    grid-row: 4;
+    width: 10rem; 
+  }
+
+  .comparate article.avant {
+    grid-column: 1;
+    grid-row: 2;
+  }
+
+  .comparate article.sendly {
+    grid-column: 1;
+    grid-row: 5;
+  }
+
+  .comparate article ul {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    grid-template-rows: auto auto; 
+    gap: 1rem; 
+    padding: 5%;
+  }
+
+  .comparate article ul li {
+    min-height: auto; 
+    height: 100%;
+    padding: 8% 5%;
+    font-size: 0.75rem;
+  }
+
+  .comparate article.avant ul li.perte { grid-column-start: 1; grid-row-start: 1; 
+    }
+
+  .comparate article.avant ul li.trop { grid-column-start: 2; grid-row-start: 1; 
+    }
+
+  .comparate article.avant ul li.devis { grid-column-start: 1; grid-row-start: 2; 
+    }
+
+  .comparate article.avant ul li.signature { grid-column-start: 2; grid-row-start: 2; 
+    }
+
+}
+
+@media (max-width: 425px) {
+    .comparate article ul {
+        display: flex;
+        flex-direction: column;
+    }
+
 }

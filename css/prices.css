@@ -1,7 +1,4 @@
 #prices {
-    height: 100vh;
-    width: 100vw;
-    /* background-image: url(../assets/img/bgprices.jpg); */
     background:
         linear-gradient(to bottom,
             white 0%,
@@ -26,7 +23,7 @@
         display: flex;
         justify-content: space-around;
         width: 100%;
-        padding: 3rem;
+        padding: 5rem;
         overflow-x: scroll;
         scrollbar-width: none;
         overflow-y: visible;
@@ -40,13 +37,12 @@
     .pricecard {
         display: flex;
         flex-direction: column;
-        border: 0.2rem solid var(--color-sec);
+        border: 0.3rem solid var(--color-sec);
         border-radius: 1.5rem;
         object-fit: cover;
         padding: 2rem 1.5rem;
         width: 20%;
         min-width: 300px;
-        height: 500px;
         text-align: center;
         box-shadow: 0 4px 20px rgba(0, 0, 0, 0.06);
         transition: all 0.6s ease;
@@ -133,5 +129,30 @@
                 background-color: var(--color-prim-dark);
             }
         }
+    }
+}
+
+#prices {
+    width: 100%;
+
+    h2 {
+        overflow-wrap: break-word;
+        font-size: 2.5rem;
+        padding: 0 1rem;
+    }
+
+    h2+p {
+        width: 100%;
+        padding: 0 1rem;
+        box-sizing: border-box;
+    }
+
+    .pricecard {
+        order: 1;
+
+    }
+
+    #premium {
+        order: 0;
     }
 }
