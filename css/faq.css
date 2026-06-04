@@ -93,3 +93,9 @@ details[open] .faq-icon {
         }
     }
 }
+
+@media (max-width: 480px) {
+    .faq-icon {
+        border: none;
+    }
+}
