@@ -1,0 +1,158 @@
+#prices {
+    background:
+        linear-gradient(to bottom,
+            white 0%,
+            transparent 15%,
+            transparent 85%,
+            white 100%),
+        url("../assets/img/bgprices.jpg");
+    background-size: cover;
+    overflow-x: hidden;
+
+    h2 {
+        margin-bottom: 1rem;
+    }
+
+    h2+p {
+        text-align: center;
+        margin-bottom: 3rem;
+        font-size: 25px;
+    }
+
+    div {
+        display: flex;
+        justify-content: space-around;
+        width: 100%;
+        padding: 5rem;
+        overflow-x: scroll;
+        scrollbar-width: none;
+        overflow-y: visible;
+        z-index: 999;
+        min-height: 650px;
+        height: auto;
+        align-items: center;
+        gap: 2rem;
+    }
+
+    .pricecard {
+        display: flex;
+        flex-direction: column;
+        border: 0.3rem solid var(--color-sec);
+        border-radius: 1.5rem;
+        object-fit: cover;
+        padding: 2rem 1.5rem;
+        width: 20%;
+        min-width: 300px;
+        text-align: center;
+        box-shadow: 0 4px 20px rgba(0, 0, 0, 0.06);
+        transition: all 0.6s ease;
+        background-color: var(--g50);
+
+        &:hover {
+            scale: 1.12;
+            background-color: #d2cff7d5;
+        }
+
+        h3 {
+            color: var(--color-prim);
+            font-size: 1.5rem;
+        }
+
+        h4 {
+            color: var(--g900);
+            font-size: 2.5rem;
+            font-weight: 700;
+            margin-bottom: 1.5rem;
+
+            span {
+                font-size: 1.5rem;
+                font-weight: 400;
+                color: var(--g700);
+            }
+        }
+
+        ul {
+            border-top: 1px solid #eee;
+            padding-top: 1.2rem;
+            margin-top: 0.5rem;
+        }
+
+        li {
+            display: flex;
+            align-items: center;
+            gap: 0.2rem;
+        }
+
+        .btn {
+            display: flex;
+            align-self: center;
+            padding: 0.2rem 4rem;
+            background-color: var(--color-sec);
+            border-radius: 1rem;
+            margin: 1.5rem 0;
+            text-align: center;
+            color: var(--g900);
+            transition: all 0.5s ease;
+
+            &:hover {
+                scale: 1.2;
+                background-color: var(--color-sec-dark);
+            }
+        }
+    }
+
+    #premium {
+        border: 0.3rem solid var(--color-prim);
+        box-shadow: 0 10px 35px rgba(124, 58, 178, 0.18);
+        position: relative;
+        font-weight: bold;
+
+        &:hover {
+            background-color: #c5ebf1;
+        }
+
+        .badge {
+            position: absolute;
+            top: -1.7rem;
+            left: 70%;
+            padding: 0.3rem 1rem;
+            border-radius: 9999px;
+            width: 5rem;
+            transform: rotate(10deg);
+        }
+
+        .btn {
+            background-color: var(--color-prim);
+            color: var(--g50);
+
+            &:hover {
+                background-color: var(--color-prim-dark);
+            }
+        }
+    }
+}
+
+#prices {
+    width: 100%;
+
+    h2 {
+        overflow-wrap: break-word;
+        font-size: 2.5rem;
+        padding: 0 1rem;
+    }
+
+    h2+p {
+        width: 100%;
+        padding: 0 1rem;
+        box-sizing: border-box;
+    }
+
+    .pricecard {
+        order: 1;
+
+    }
+
+    #premium {
+        order: 0;
+    }
+}
