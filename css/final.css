@@ -14,7 +14,7 @@
         color: var(--color-prim);
     }
 
-    p {
+    h3 {
         font-size: 32px;
     }
 
@@ -35,6 +35,25 @@
         &:hover {
             scale: 1.1;
             background-color: var(--color-prim-dark);
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    .final {
+
+        h2 {
+            overflow-wrap: break-word;
+        }
+
+        h3 {
+            overflow-wrap: break-word;
+            padding: 0 1.5rem;
+            text-align: center;
+        }
+
+        a {
+            margin: 10% 0;
         }
     }
 }

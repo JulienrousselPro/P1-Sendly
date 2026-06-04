@@ -3,7 +3,6 @@ footer {
     flex-direction: column;
     background-color: var(--color-prim);
     color: var(--g100);
-    height: 21vh;
 
     .footer-nav {
         display: flex;
@@ -16,5 +15,16 @@ footer {
     #copy {
         width: 100%;
         text-align: center;
+    }
+}
+
+@media (max-width: 768px) {
+    .footer-nav {
+        margin: 0 3rem;
+
+        .footer-card {
+            align-self: stretch;
+            max-width: 20%;
+        }
     }
 }
