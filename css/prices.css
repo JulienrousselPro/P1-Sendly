@@ -137,4 +137,13 @@
     #prices {
         width: 100%;
     }
+
+    .pricecard {
+        order: 1;
+
+    }
+
+    #premium {
+        order: 0;
+    }
 }
