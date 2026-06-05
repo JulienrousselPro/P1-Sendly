@@ -1,0 +1,263 @@
+:root {
+  --font-title: "Futura", "Century Gothic", "Trebuchet MS", sans-serif;
+  --font-body: "Lato", "Helvetica Neue", Arial, sans-serif;
+}
+
+@font-face {
+  font-family: "Lato";
+  src: url("../fonts/Lato/Lato-Regular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Lato";
+  src: url("../fonts/Lato/Lato-Italic.woff2") format("woff2");
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Lato";
+  src: url("../fonts/Lato/Lato-Bold.woff2") format("woff2");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Futura PT";
+  src: url("../fonts/futura-pt/FuturaCyrillicBook.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Futura PT";
+  src: url("../fonts/futura-pt/FuturaCyrillicDemi.ttf") format("truetype");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Futura PT";
+  src: url("../fonts/futura-pt/FuturaCyrillicBold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+body {
+  font-family: var(--font-body);
+  font-weight: bold;
+  width: 100vw;
+  height: 100vh;
+}
+
+.logo {
+  width: 450px;
+  margin: 15px 5px 0 5px;
+  padding: 0 20px;
+}
+
+/*======= MAIN ========*/
+main {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url("../assets/img/testt.png");
+}
+
+h1 {
+  font-size: 45px;
+  padding-top: 15px;
+  padding-bottom: 5px;
+  color: #1c1e26;
+  text-align: center;
+  font-weight: 700;
+}
+
+h2 {
+  font-size: 22px;
+  font-weight: 400;
+  color: #1c1e26;
+  text-align: center;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+.btn-connexion {
+  background-color: #ffffff;
+  border: #1da2c2 solid 2px;
+  border-radius: 10px;
+  color: rgb(80, 79, 81);
+  font-size: 22px;
+  font-weight: 700;
+  margin: 10px 50px;
+  box-shadow: rgba(55, 53, 56, 0.24) 1px 2px 7px 2px;
+  cursor: pointer;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 5px 10px;
+  gap: 5px;
+}
+
+.btn-connexion:hover {
+  background-color: azure;
+  border: solid 3px #5fc9da;
+  color: #004e5a;
+}
+
+.btn-connexion img {
+  width: 40px;
+  height: 40px;
+  margin: 20px 20px 20px 20px;
+}
+
+.promt {
+  font-size: 25px;
+  text-align: left;
+  padding-top: 15px;
+  padding-bottom: 5px;
+  margin: 0 50px;
+}
+
+.promt2 {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: 15px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+.connexion {
+  text-align: center;
+  margin: 15px;
+}
+
+span {
+  font-size: 20px;
+}
+input {
+  margin: 0 50px 15px 50px;
+  padding: 15px 10px;
+  border: solid 0.2px #5fc9da;
+  border-radius: 10px;
+  color: rgb(0, 0, 0);
+  font-size: 22px;
+  text-align: left;
+  box-shadow: rgba(55, 53, 56, 0.24) 1px 1px 10px 1px;
+}
+
+input:hover {
+  background-color: azure;
+  border: solid 3px #5fc9da;
+}
+
+input:focus {
+  border: solid 3px #5fc9da;
+  outline: none;
+  box-shadow: rgba(55, 53, 56, 0.24) 1px 1px 10px 1px;
+}
+.password-min {
+  display: none;
+  margin: -5px 60px 15px 60px;
+  color: #1c1e26;
+}
+
+#password:focus + .password-min {
+  display: block;
+  visibility: visible;
+}
+
+#password {
+  margin-bottom: 15px;
+}
+
+#password2 {
+  margin-bottom: 15px;
+}
+.choice {
+  font-size: 16px;
+  text-align: left;
+  padding-bottom: 5px;
+  margin: 0 70px;
+}
+.choice input {
+  margin: 0;
+}
+
+.choice a {
+  font-weight: 700;
+}
+
+.btn-submit {
+  background-color: #1da2c2;
+  border: #1da2c2 solid 0.5px;
+  border-radius: 10px;
+  color: white;
+  font-size: 22px;
+  font-weight: 700;
+  text-align: center;
+  padding: 15px 15px;
+  margin: 15px 50px;
+  box-shadow: rgba(55, 53, 56, 0.24) 1px 2px 7px 2px;
+  cursor: pointer;
+}
+
+.btn-submit:hover {
+  background-color: #5fc9da;
+  border: #5fc9da;
+  border-radius: 10px;
+  color: #004e5a;
+  font-size: 22px;
+  font-weight: 700;
+  text-align: center;
+  padding: 15px 15px;
+  margin: 15px 50px;
+  box-shadow: rgba(55, 53, 56, 0.24) 1px 2px 7px 2px;
+  cursor: pointer;
+}
+label.choice {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.choice input {
+  margin-right: 15px;
+  width: 18px;
+  height: 18px;
+  cursor: pointer;
+}
+
+@media (max-width: 480px) {
+  .logo {
+    width: 450px;
+    margin: 15px 5px 0 5px;
+    padding: 0 60px;
+  }
+  h1 {
+    font-size: 32px;
+    padding-top: 15 60px 10px 60px;
+    padding-bottom: 5px;
+
+    text-align: center;
+  }
+
+  h2 {
+    font-size: 16px;
+    padding-bottom: 15px;
+  }
+}
