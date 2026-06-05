@@ -57,3 +57,18 @@
         }
     }
 }
+
+@media (max-width: 480px) {
+    .final {
+        height: auto;
+
+        h2 {
+            font-size: 2rem;
+            margin-top: 0;
+        }
+
+        h3 {
+            font-size: 1.3rem;
+        }
+    }
+}

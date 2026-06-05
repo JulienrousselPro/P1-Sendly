@@ -132,27 +132,32 @@
     }
 }
 
-#prices {
-    width: 100%;
-
-    h2 {
-        overflow-wrap: break-word;
-        font-size: 2.5rem;
-        padding: 0 1rem;
-    }
-
-    h2+p {
+@media (max-width: 768px) {
+    #prices {
         width: 100%;
-        padding: 0 1rem;
-        box-sizing: border-box;
-    }
 
-    .pricecard {
-        order: 1;
+        h2 {
+            overflow-wrap: break-word;
+            font-size: 2.5rem;
+            padding: 0 1rem;
+        }
 
-    }
+        h2+p {
+            width: 100%;
+            padding: 0 1rem;
+            box-sizing: border-box;
+        }
 
-    #premium {
-        order: 0;
+        div {
+            gap: 6.2rem;
+        }
+
+        .pricecard {
+            order: 1;
+        }
+
+        #premium {
+            order: 0;
+        }
     }
 }
