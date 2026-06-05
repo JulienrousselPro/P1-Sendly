@@ -33,26 +33,26 @@
   <img src="../assets/icons/apple.svg" alt="icone de appel">
   Crée mon compte avec Apple
 </button>
-        <p class="connexion"> <span>Ou</span></p>
+        <p class="connexion">Ou</p>
         
         <label class="promt2" for="username">Nom d'utilisateur</label>
-        <input type="text" id="username" placeholder="Nom d'utilisateur" name="username" required>
+        <input class="input-other" type="text" id="username" placeholder="Nom d'utilisateur" name="username" required>
 
         <label class="promt2" for="email">Email</label>
-        <input type="email" id="email" placeholder="Email" name="email" required>
+        <input class="input-other" type="email" id="email" placeholder="Email" name="email" required>
 
         <label class="promt2" for="password">Mot de passe</label>
-        <input type="password" id="password" placeholder="Mot de passe" name="password" required>
+        <input class="input-other" type="password" id="password" placeholder="Mot de passe" name="password" required>
         <p class="password-min">Veuillez saisir un mot de passe avec <br>8 caractères minimum - 1 caractère spécial - 1 chiffre</p>
 
         <label class="promt2" for="password2">Confirmer le mot de passe</label>
-        <input type="password" id="password2" placeholder="Confirmer le mot de passe" name="password2" required>
+        <input class="input-other" type="password" id="password2" placeholder="Confirmer le mot de passe" name="password2" required>
 
         <label class="choice">
-            <input type="checkbox" name="newsletter" checked> Je souhaite recevoir les newsletter de Sendly par email
+            <input class="conditions" type="checkbox" name="newsletter" checked> Je souhaite recevoir les newsletter de Sendly par email
         </label>
         <label class="choice">
-            <input type="checkbox" name="cgu"> J'ai lu et j'accepte <a href="#">les conditions générales.</a>
+            <input class="conditions" type="checkbox" name="cgu"> J'ai lu et j'accepte <strong><a href="#">les conditions générales.</a></strong>
         </label>
 
         <button class="btn-submit" type="submit" >Créer un compte</button>
