@@ -111,7 +111,7 @@
 .separator {
     height: 4px;
     width: 80%;
-    margin: 50px auto; 
+    margin: 50px auto;
     background: linear-gradient(to right, transparent, #605ba8, transparent);
     border-radius: 999px;
 }
@@ -119,16 +119,16 @@
 
 @media (max-width: 768px) {
     .hero::before {
-        
+
         transform: scale(1.1);
         background-size: 50%;
-        
+
     }
 
     .description {
         padding: 50px 250px 100px 10px;
         text-align: left;
-        
+
     }
 
     .hero-btn {
