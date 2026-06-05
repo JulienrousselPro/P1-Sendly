@@ -241,3 +241,23 @@ label.choice {
   height: 18px;
   cursor: pointer;
 }
+
+@media (max-width: 480px) {
+  .logo {
+    width: 450px;
+    margin: 15px 5px 0 5px;
+    padding: 0 60px;
+  }
+  h1 {
+    font-size: 32px;
+    padding-top: 15 60px 10px 60px;
+    padding-bottom: 5px;
+
+    text-align: center;
+  }
+
+  h2 {
+    font-size: 16px;
+    padding-bottom: 15px;
+  }
+}

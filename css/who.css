@@ -1,88 +1,124 @@
 .who {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-image: url("../assets/img/testt.png");
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url("../assets/img/testt.png");
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .who .sous-title p {
-    font-size: 20px;
-    text-align: center;
-    font-family: "lato";
-    font-weight: 700;
-    margin-bottom: 60px;
-    color: #3fb3c6;
+  font-size: 20px;
+  text-align: center;
+  font-family: "lato";
+  font-weight: 700;
+  margin-bottom: 60px;
+  color: #3fb3c6;
 }
 
 .who ul {
-    width: 1000px;
-    height: 450px;
-    display: flex;
-    justify-content: center;
-    gap: 95px;
-    margin: 0px 50px 80px 50px;
+  width: 1000px;
+  height: 450px;
+  display: flex;
+  justify-content: center;
+  gap: 95px;
+  margin: 0px 50px 80px 50px;
 }
 
 .who li {
-    width: 260px;
-    border-radius: 16px;
-    padding: 15px;
-    display: flex;
-    flex-direction: column;
-    background-color: #ffffff;
-    box-shadow: rgba(9, 30, 66, 0.08) 2px 2px 12px 8px;
-    transition: transform 0.3s;
-    border-top: solid 4px #605ba8;
+  width: 260px;
+  border-radius: 16px;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+  box-shadow: rgba(9, 30, 66, 0.08) 2px 2px 12px 8px;
+  transition: transform 0.3s;
+  border-top: solid 4px #605ba8;
 }
 
 .who li:hover {
-    transform: scale(1.05);
+  transform: scale(1.05);
 }
 
 .who img {
-    width: 300px;
-    align-self: center;
-    margin-bottom: 8px;
+  width: 300px;
+  align-self: center;
+  margin-bottom: 8px;
 }
 
 .who h3 {
-    color: #605ba8;
-    font-family: "lato";
-    font-weight: 700;
-    font-size: 28px;
-    text-align: center;
-    text-shadow: rgba(141, 137, 137, 0.61) 1px 1px 1px;
-    border-bottom: solid 0.5px #605ba8;
-    backdrop-filter: blur(10px);
-    margin-top: 15px;
-    margin-bottom: 7px;
-    padding: 0 0 24px 0;
+  color: #605ba8;
+  font-family: "lato";
+  font-weight: 700;
+  font-size: 28px;
+  text-align: center;
+  text-shadow: rgba(141, 137, 137, 0.61) 1px 1px 1px;
+  border-bottom: solid 0.5px #605ba8;
+  backdrop-filter: blur(10px);
+  margin-top: 15px;
+  margin-bottom: 7px;
+  padding: 0 0 24px 0;
 }
 
 .who a {
-    color: #004e5a;
-    font-family: "lato";
-    font-weight: 700;
-    font-size: 18px;
-    background-color: #5fc9da;
-    border-radius: 15px;
-    padding: 13px 30px 10px 30px;
-    box-shadow: rgba(55, 53, 56, 0.24) 1px 2px 7px 2px;
+  color: #004e5a;
+  font-family: "lato";
+  font-weight: 700;
+  font-size: 18px;
+  background-color: #5fc9da;
+  border-radius: 15px;
+  padding: 13px 30px 10px 30px;
+  box-shadow: rgba(55, 53, 56, 0.24) 1px 2px 7px 2px;
 }
 
 .who a:hover {
-    transform: scale(1.03);
-    background-color: #605ba8;
-    color: #bebaf6;
+  transform: scale(1.03);
+  background-color: #605ba8;
+  color: #bebaf6;
 }
 
 .who p {
-    font-family: "lato";
-    font-weight: 400;
-    font-size: 16px;
-    margin: 5px 20px;
-    text-align: center;
+  font-family: "lato";
+  font-weight: 400;
+  font-size: 16px;
+  margin: 5px 20px;
+  text-align: center;
+}
+
+/* --============= WHO — smartphone ===============-- */
+
+@media (max-width: 480px) {
+  .who h2 {
+    margin: 0px 25px 45px 25px;
+  }
+
+  .who ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+    height: auto;
+    gap: 30px;
+    margin: 0 auto 50px auto;
+  }
+
+  .who li {
+    width: 80%;
+    margin-bottom: 30px;
+  }
+  .who img {
+    width: 100%;
+  }
+
+  .who .sous-title p {
+    font-size: 18px;
+    margin-bottom: 40px;
+  }
+
+  .who h3 {
+    font-size: 24px;
+    margin: 0 30px;
+  }
 }
